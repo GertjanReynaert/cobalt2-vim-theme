@@ -18,7 +18,7 @@ if has("gui_running")
   set background=dark
 endif
 
-hi Normal       guifg=#FFFFFF ctermfg=231  guibg=#193549 ctermbg=236  gui=NONE cterm=NONE
+hi Normal       guifg=#1F4662 ctermfg=23   guibg=#193549 ctermbg=236  gui=NONE cterm=NONE
 hi DiffAdd      guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi DiffChange   guifg=#F8F8F8 ctermfg=231  guibg=#806F00 ctermbg=94   gui=NONE cterm=NONE
 hi DiffText     guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
@@ -44,7 +44,7 @@ hi Search       guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE c
 hi Ignore       guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi Identifier   guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi PreProc      guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
-hi Comment      guifg=#0088FF ctermfg=33   gui=ITALICS cterm=NONE
+hi Comment      guifg=#0088FF ctermfg=33   gui=ITALIC cterm=NONE
 hi Constant     guifg=#EB939A ctermfg=174  gui=NONE cterm=NONE
 hi String       guifg=#EDEF7D ctermfg=228  guibg=#EDEF7D ctermbg=228  gui=NONE cterm=NONE
 hi Function     guifg=#FFB054 ctermfg=215  gui=NONE cterm=NONE

@@ -5,7 +5,7 @@ vim_colors "cobalt2" do
   reset      true
   background :dark
 
-  Normal          "FFFFFF", "193549"
+  Normal          "1f4662", "193549"
   DiffAdd         "222", "f8f8ff"
   DiffChange      "F8F8F8", "806F00"
   DiffText        "222", "f8f8ff"
@@ -31,7 +31,7 @@ vim_colors "cobalt2" do
   Ignore          "222", "f8f8ff"
   Identifier      "222", "f8f8ff"
   PreProc         "222", "f8f8ff"
-  Comment         "0088FF", :gui => "italics"
+  Comment         "0088FF", :gui => "italic"
   Constant        "EB939A"
   String          "EDEF7D", "EDEF7D"
   Function        "FFB054"
