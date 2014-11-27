@@ -5,7 +5,7 @@ vim_colors "cobalt2" do
   reset      true
   background :dark
 
-  Normal          "222", "193549"
+  Normal          "FFFFFF", "193549"
   DiffAdd         "222", "f8f8ff"
   DiffChange      "F8F8F8", "806F00"
   DiffText        "222", "f8f8ff"

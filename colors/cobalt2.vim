@@ -18,7 +18,7 @@ if has("gui_running")
   set background=dark
 endif
 
-hi Normal       guifg=#222222 ctermfg=235  guibg=#193549 ctermbg=236  gui=NONE cterm=NONE
+hi Normal       guifg=#FFFFFF ctermfg=231  guibg=#193549 ctermbg=236  gui=NONE cterm=NONE
 hi DiffAdd      guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi DiffChange   guifg=#F8F8F8 ctermfg=231  guibg=#806F00 ctermbg=94   gui=NONE cterm=NONE
 hi DiffText     guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
