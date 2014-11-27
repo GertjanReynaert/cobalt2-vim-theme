@@ -371,7 +371,7 @@ hi! link pythonOperator Statement
 
 hi! link rubySharpBang Comment
 call s:X("rubyClass","447799","","","DarkBlue","")
-call s:X("rubyIdentifier","c6b6fe","","","Cyan","")
+hi! link rubyIdentifier Identifier
 hi! link rubyConstant Type
 hi! link rubyFunction Function
 
