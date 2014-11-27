@@ -1,11 +1,11 @@
-vim_colors "sweet" do
+vim_colors "cobalt2" do
   author "Gertjan Reynaert (ported from theme of Wes Bos)"
   notes  "Cobalt2 color scheme port for VIM"
 
   reset      true
   background :dark
 
-  Normal          "222", "f8f8ff"
+  Normal          "222", "193549"
   DiffAdd         "222", "f8f8ff"
   DiffChange      "F8F8F8", "806F00"
   DiffText        "222", "f8f8ff"
@@ -33,7 +33,7 @@ vim_colors "sweet" do
   PreProc         "222", "f8f8ff"
   Comment         "0088FF", :gui => "italics"
   Constant        "EB939A"
-  String          "#EDEF7D"
+  String          "EDEF7D", "EDEF7D"
   Function        "FFB054"
   Statement       "222", "f8f8ff"
   Type            "222", "f8f8ff"

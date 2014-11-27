@@ -12,13 +12,13 @@ if version > 580
   endif
 endif
 
-let colors_name="sweet"
+let colors_name="cobalt2"
 
 if has("gui_running")
   set background=dark
 endif
 
-hi Normal       guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
+hi Normal       guifg=#222222 ctermfg=235  guibg=#193549 ctermbg=236  gui=NONE cterm=NONE
 hi DiffAdd      guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi DiffChange   guifg=#F8F8F8 ctermfg=231  guibg=#806F00 ctermbg=94   gui=NONE cterm=NONE
 hi DiffText     guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
@@ -44,17 +44,17 @@ hi Search       guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE c
 hi Ignore       guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi Identifier   guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi PreProc      guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
-hi Comment      guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
-hi Constant     guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
-hi String       guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
-hi Function     guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
+hi Comment      guifg=#0088FF ctermfg=33   gui=ITALICS cterm=NONE
+hi Constant     guifg=#EB939A ctermfg=174  gui=NONE cterm=NONE
+hi String       guifg=#EDEF7D ctermfg=228  guibg=#EDEF7D ctermbg=228  gui=NONE cterm=NONE
+hi Function     guifg=#FFB054 ctermfg=215  gui=NONE cterm=NONE
 hi Statement    guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi Type         guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi Number       guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi Todo         guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi Special      guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi rubySymbol   guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
-hi Error        guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
+hi Error        guifg=#FF1E00 ctermfg=196  gui=NONE cterm=NONE
 hi Todo         guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi Label        guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi StorageClass guifg=#FFC600 ctermfg=220  gui=NONE cterm=NONE
