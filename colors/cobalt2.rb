@@ -11,7 +11,7 @@ vim_colors "cobalt2" do
   DiffText        "222", "f8f8ff"
   DiffDelete      "F8F8F8", "ee3a43"
   Folded          "222", "f8f8ff"
-  LineNr          "222", "f8f8ff"
+  LineNr          "222", "1f4662"
   NonText         "222", "f8f8ff"
   VertSplit       "222", "f8f8ff"
   StatusLine      "222", "f8f8ff"
@@ -58,7 +58,7 @@ vim_colors "cobalt2" do
   cucumberTags    "222", "f8f8ff"
   htmlTagN        "222", "f8f8ff"
   Cursor          "222", "f8f8ff"
-  CursorLine      "222", "f8f8ff"
+  CursorLine      "222", "1f4662"
   CursorColumn    "222", "f8f8ff"
 
   Folded "808080", "ECECEC", :gui => "bold"
