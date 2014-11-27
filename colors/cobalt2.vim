@@ -24,7 +24,7 @@ hi DiffChange   guifg=#F8F8F8 ctermfg=231  guibg=#806F00 ctermbg=94   gui=NONE c
 hi DiffText     guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi DiffDelete   guifg=#F8F8F8 ctermfg=231  guibg=#EE3A43 ctermbg=203  gui=NONE cterm=NONE
 hi Folded       guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
-hi LineNr       guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
+hi LineNr       guifg=#222222 ctermfg=235  guibg=#1F4662 ctermbg=23   gui=NONE cterm=NONE
 hi NonText      guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi VertSplit    guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi StatusLine   guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
@@ -71,7 +71,7 @@ hi TabLineSel   guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE c
 hi cucumberTags guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi htmlTagN     guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi Cursor       guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
-hi CursorLine   guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
+hi CursorLine   guifg=#222222 ctermfg=235  guibg=#1F4662 ctermbg=23   gui=NONE cterm=NONE
 hi CursorColumn guifg=#222222 ctermfg=235  guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi Folded       guifg=#808080 ctermfg=244  guibg=#ECECEC ctermbg=255  gui=BOLD cterm=BOLD
 
