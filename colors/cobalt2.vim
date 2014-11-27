@@ -22,7 +22,6 @@ else
 endif
 
 " Color approximation functions by Henry So, Jr. and David Liang {{{
-" Added to jellybeans.vim by Daniel Herbert
 
 " returns an approximate grey index for the given grey level
 fun! s:grey_number(x)
@@ -256,7 +255,7 @@ endfun
 " }}}
 
 if !exists("g:jellybeans_background_color")
-  let g:jellybeans_background_color = "151515"
+  let g:jellybeans_background_color = "193549"
 end
 
 call s:X("Normal","e8e8d3",g:jellybeans_background_color,"","White","")
