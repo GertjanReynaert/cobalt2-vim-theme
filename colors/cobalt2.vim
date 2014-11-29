@@ -370,7 +370,7 @@ hi! link pythonOperator Statement
 " Ruby
 
 hi! link rubySharpBang Comment
-call s:X("rubyClass","447799","","","DarkBlue","")
+call s:X("rubyClass","ff9d00","","","DarkBlue","")
 hi! link rubyIdentifier Identifier
 hi! link rubyConstant Type
 hi! link rubyFunction Function
