@@ -311,7 +311,7 @@ call s:X("StringDelimiter","3AD900","","","DarkGreen","")
 call s:X("Identifier","c6b6ee","","","ffc600","")
 call s:X("Structure","8fbfdc","","","LightCyan","")
 call s:X("Function","ffc600","","","Yellow","")
-call s:X("Statement","8197bf","","","DarkBlue","")
+call s:X("Statement","FF9D00","","","DarkBlue","")
 hi! link PreProc Identifier
 
 hi! link Operator Structure
