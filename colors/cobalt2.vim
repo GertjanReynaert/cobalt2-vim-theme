@@ -310,7 +310,7 @@ call s:X("StringDelimiter","556633","","","DarkGreen","")
 
 call s:X("Identifier","c6b6ee","","","ffc600","")
 call s:X("Structure","8fbfdc","","","LightCyan","")
-call s:X("Function","fad07a","","","Yellow","")
+call s:X("Function","ffc600","","","Yellow","")
 call s:X("Statement","8197bf","","","DarkBlue","")
 hi! link PreProc Identifier
 
