@@ -316,7 +316,7 @@ hi! link PreProc Identifier
 
 hi! link Operator Structure
 
-call s:X("Type","ffb964","","","Yellow","")
+call s:X("Type","ffc600","","","Yellow","")
 call s:X("NonText","606060",g:cobalt_bg,"",s:termBlack,"")
 
 call s:X("SpecialKey","444444","1c1c1c","",s:termBlack,"")
