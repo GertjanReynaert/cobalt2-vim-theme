@@ -376,7 +376,7 @@ hi! link rubyConstant Type
 hi! link rubyFunction Function
 
 call s:X("rubyInstanceVariable","c6b6fe","","","Cyan","")
-call s:X("rubySymbol","7697d6","","","Blue","")
+call s:X("rubySymbol","FF628C","","","Blue","")
 hi! link rubyGlobalVariable rubyInstanceVariable
 hi! link rubyModule rubyClass
 call s:X("rubyControl","7597c6","","","Blue","")
