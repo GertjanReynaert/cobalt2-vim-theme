@@ -254,11 +254,11 @@ fun! s:X(group, fg, bg, attr, lcfg, lcbg)
 endfun
 " }}}
 
-if !exists("g:jellybeans_background_color")
-  let g:jellybeans_background_color = "193549"
+if !exists("g:cobalt_bg")
+  let g:cobalt_bg = "193549"
 end
 
-call s:X("Normal","e8e8d3",g:jellybeans_background_color,"","White","")
+call s:X("Normal","e8e8d3",g:cobalt_bg,"","White","")
 set background=dark
 
 if !exists("g:jellybeans_use_lowcolor_black") || g:jellybeans_use_lowcolor_black
@@ -282,9 +282,9 @@ if version >= 700
 endif
 
 call s:X("Visual","","0050a4","","",s:termBlack)
-call s:X("Cursor",g:jellybeans_background_color,"b0d0f0","","","")
+call s:X("Cursor",g:cobalt_bg,"b0d0f0","","","")
 
-call s:X("LineNr","605958",g:jellybeans_background_color,"none",s:termBlack,"")
+call s:X("LineNr","605958",g:cobalt_bg,"none",s:termBlack,"")
 call s:X("CursorLineNr","ccc5c4","","none","White","")
 call s:X("Comment","0088FF","","italic","Grey","")
 call s:X("Todo","c7c7c7","","bold","White",s:termBlack)
@@ -317,7 +317,7 @@ hi! link PreProc Identifier
 hi! link Operator Structure
 
 call s:X("Type","ffb964","","","Yellow","")
-call s:X("NonText","606060",g:jellybeans_background_color,"",s:termBlack,"")
+call s:X("NonText","606060",g:cobalt_bg,"",s:termBlack,"")
 
 call s:X("SpecialKey","444444","1c1c1c","",s:termBlack,"")
 
@@ -452,8 +452,8 @@ call s:X("IndentGuidesEven","","1b1b1b","","","")
 hi! link TagListFileName Directory
 call s:X("PreciseJumpTarget","B9ED67","405026","","White","Green")
 
-if !exists("g:jellybeans_background_color_256")
-  let g:jellybeans_background_color_256=233
+if !exists("g:cobalt_bg_256")
+  let g:cobalt_bg_256=233
 end
 " Manual overrides for 256-color terminals. Dark colors auto-map badly.
 if !s:low_color
@@ -464,10 +464,10 @@ if !s:low_color
   hi CursorColumn ctermbg=234
   hi CursorLine ctermbg=234
   hi SpecialKey ctermbg=234
-  exec "hi NonText ctermbg=".g:jellybeans_background_color_256
-  exec "hi LineNr ctermbg=".g:jellybeans_background_color_256
+  exec "hi NonText ctermbg=".g:cobalt_bg_256
+  exec "hi LineNr ctermbg=".g:cobalt_bg_256
   hi DiffText ctermfg=81
-  exec "hi Normal ctermbg=".g:jellybeans_background_color_256
+  exec "hi Normal ctermbg=".g:cobalt_bg_256
   hi DbgBreakPt ctermbg=53
   hi IndentGuidesOdd ctermbg=235
   hi IndentGuidesEven ctermbg=234
