@@ -258,7 +258,7 @@ if !exists("g:cobalt_bg")
   let g:cobalt_bg = "193549"
 end
 
-call s:X("Normal","e8e8d3",g:cobalt_bg,"","White","")
+call s:X("Normal","FFFFFF",g:cobalt_bg,"","White","")
 set background=dark
 
 if !exists("g:jellybeans_use_lowcolor_black") || g:jellybeans_use_lowcolor_black
