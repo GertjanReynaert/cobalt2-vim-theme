@@ -282,7 +282,7 @@ if version >= 700
 endif
 
 call s:X("Visual","","0050a4","","",s:termBlack)
-call s:X("Cursor",g:cobalt_bg,"b0d0f0","","","")
+call s:X("Cursor",g:cobalt_bg,"ffc600","","","")
 
 call s:X("LineNr","605958",g:cobalt_bg,"none",s:termBlack,"")
 call s:X("CursorLineNr","ccc5c4","","none","White","")
