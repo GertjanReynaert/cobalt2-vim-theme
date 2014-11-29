@@ -286,7 +286,7 @@ call s:X("Cursor",g:jellybeans_background_color,"b0d0f0","","","")
 
 call s:X("LineNr","605958",g:jellybeans_background_color,"none",s:termBlack,"")
 call s:X("CursorLineNr","ccc5c4","","none","White","")
-call s:X("Comment","888888","","italic","Grey","")
+call s:X("Comment","0088FF","","italic","Grey","")
 call s:X("Todo","c7c7c7","","bold","White",s:termBlack)
 
 call s:X("StatusLine","000000","dddddd","italic","","White")
@@ -301,11 +301,11 @@ call s:X("ColorColumn","","000000","","",s:termBlack)
 
 call s:X("Title","70b950","","bold","Green","")
 
-call s:X("Constant","cf6a4c","","","Red","")
+call s:X("Constant","FF628C","","","Red","")
 call s:X("Special","799d6a","","","Green","")
 call s:X("Delimiter","668799","","","Grey","")
 
-call s:X("String","99ad6a","","","Green","")
+call s:X("String","3AD900","","","Green","")
 call s:X("StringDelimiter","556633","","","DarkGreen","")
 
 call s:X("Identifier","c6b6ee","","","ffc600","")
@@ -386,7 +386,7 @@ hi! link rubyStringDelimiter StringDelimiter
 hi! link rubyInterpolationDelimiter Identifier
 
 call s:X("rubyRegexpDelimiter","540063","","","Magenta","")
-call s:X("rubyRegexp","dd0093","","","DarkMagenta","")
+call s:X("rubyRegexp","80FFC2","","","DarkMagenta","")
 call s:X("rubyRegexpSpecial","a40073","","","Magenta","")
 
 call s:X("rubyPredefinedIdentifier","de5577","","","Red","")
