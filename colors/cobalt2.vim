@@ -387,7 +387,7 @@ hi! link rubyInterpolationDelimiter Identifier
 
 call s:X("rubyRegexpDelimiter","80FFC2","","","Magenta","")
 call s:X("rubyRegexp","80FFC2","","","DarkMagenta","")
-call s:X("rubyRegexpSpecial","a40073","","","Magenta","")
+call s:X("rubyRegexpSpecial","80FFC2","","","Magenta","")
 
 call s:X("rubyPredefinedIdentifier","de5577","","","Red","")
 
