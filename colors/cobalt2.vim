@@ -457,7 +457,7 @@ if !exists("g:cobalt_bg_256")
 end
 " Manual overrides for 256-color terminals. Dark colors auto-map badly.
 if !s:low_color
-  hi StatusLineNC ctermbg=236
+  hi StatusLineNC ctermbg=255
   hi Folded ctermbg=236
   hi FoldColumn ctermbg=234
   hi SignColumn ctermbg=236
