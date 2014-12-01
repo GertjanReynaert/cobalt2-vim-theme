@@ -255,16 +255,16 @@ endfun
 " }}}
 
 if !exists("g:cobalt_bg")
-  let g:cobalt_bg = "193549"
+  let g:cobalt_bg = "485975"
 end
 
 call s:X("Normal","FFFFFF",g:cobalt_bg,"","White","")
 set background=dark
 
 if !exists("g:jellybeans_use_lowcolor_black") || g:jellybeans_use_lowcolor_black
-    let s:termBlack = "Black"
+    let s:termBlack = "485975"
 else
-    let s:termBlack = "Grey"
+    let s:termBlack = "485975"
 endif
 
 if version >= 700
