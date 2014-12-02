@@ -453,7 +453,7 @@ hi! link TagListFileName Directory
 call s:X("PreciseJumpTarget","B9ED67","405026","","White","Green")
 
 if !exists("g:cobalt_bg_256")
-  let g:cobalt_bg_256=NONE
+  let g:cobalt_bg_256="NONE"
 end
 " Manual overrides for 256-color terminals. Dark colors auto-map badly.
 if !s:low_color
