@@ -359,16 +359,12 @@ hi! link pythonOperator Statement
 
 " Ruby
 
-hi! link rubySharpBang Comment
 call s:X("rubyClass","ff9d00","","","DarkBlue","")
-hi! link rubyIdentifier Identifier
-hi! link rubyConstant Type
-hi! link rubyFunction Function
+hi! link rubyModule rubyClass
 
 call s:X("rubyInstanceVariable","cccccc","","","Cyan","")
-call s:X("rubySymbol","FF628C","","","Blue","")
+call s:X("rubySymbol","FF628C","","","Magenta","")
 hi! link rubyGlobalVariable rubyInstanceVariable
-hi! link rubyModule rubyClass
 
 " params between pipes after do, and pipes themselfs
 call s:X("rubyBlockParameter","CCCCCC","","","Blue","")
@@ -377,10 +373,10 @@ call s:X("rubyBlockParameterList","FFFFFF","","","Blue","")
 call s:X("rubyInterpolation","9EFF80","","","Magenta","")
 call s:X("rubyInterpolationDelimiter","FFFFFF","","","Magenta","")
 
-call s:X("rubyRegexpDelimiter","80FFC2","","","Magenta","")
-call s:X("rubyRegexp","80FFC2","","","Magenta","")
-call s:X("rubyRegexpSpecial","FFFFFF","","","Magenta","")
-call s:X("rubyRegexpEscape","80FFC2","","","Magenta","")
+call s:X("rubyRegexpDelimiter","80FFC2","","","","")
+call s:X("rubyRegexp","80FFC2","","","","")
+call s:X("rubyRegexpSpecial","FFFFFF","","","","")
+call s:X("rubyRegexpEscape","80FFC2","","","","")
 
 " Erlang
 
