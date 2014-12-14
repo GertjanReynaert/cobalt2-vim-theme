@@ -263,7 +263,7 @@ call s:X("MatchParen","ffffff","556779","bold","","DarkCyan")
 " vim tabpane headers
 call s:X("TabLine","000000","b0b8c0","italic","",s:termBlack)
 call s:X("TabLineFill","9098a0","","","",s:termBlack)
-call s:X("TabLineSel","000000","f0f0f0","italic,bold",s:termBlack,"White")
+call s:X("TabLineSel","000000","ffc600","italic,bold",s:termBlack,"White")
 
 " Auto-completion
 call s:X("Pmenu","ffffff","606060","","White",s:termBlack)
@@ -274,7 +274,7 @@ call s:X("Visual","","0050a4","","",s:termBlack)
 call s:X("Cursor",g:cobalt_bg,"ffc600","","","")
 call s:X("CursorColumn","","ffc600","","",s:termBlack)
 call s:X("CursorLine","","ffc600","","",s:termBlack)
-call s:X("CursorLineNr","ccc5c4","","none","White","")
+call s:X("CursorLineNr","80FCFF","","none","White","")
 
 call s:X("LineNr","605958",g:cobalt_bg,"none",s:termBlack,"")
 call s:X("Comment","0088FF","","italic","Grey","")
@@ -282,7 +282,7 @@ call s:X("Todo","0088FF","","bold","Grey", "")
 
 call s:X("StatusLine","000000","dddddd","italic","","White")
 call s:X("StatusLineNC","ffffff","403c41","italic","White","Black")
-call s:X("VertSplit","777777","403c41","",s:termBlack,s:termBlack)
+call s:X("VertSplit","ffc600","","","","")
 call s:X("WildMenu","f0a0c0","302028","","Magenta","")
 
 call s:X("Folded","a0a8b0","384048","italic",s:termBlack,"")
@@ -293,7 +293,7 @@ call s:X("ColorColumn","","000000","","",s:termBlack)
 call s:X("Title","70b950","","bold","Green","")
 
 call s:X("Constant","FF628C","","","Red","")
-call s:X("Special","799d6a","","","Green","")
+call s:X("Special","80FF82","","","Green","")
 call s:X("Delimiter","668799","","","Grey","")
 
 call s:X("String","3AD900","","","Green","")
@@ -438,6 +438,18 @@ call s:X("IndentGuidesEven","","1b1b1b","","","")
 
 hi! link TagListFileName Directory
 call s:X("PreciseJumpTarget","B9ED67","405026","","White","Green")
+
+" NERDTree
+
+call s:X("NERDTreeHelp","345FA8","","","","")     " help text on top
+call s:X("NERDTreeUp","345FA8","","","","")       " directory up instruction
+
+call s:X("NERDTreeOpenable","FFC600","","","","") " closed folder arrow
+call s:X("NERDTreeClosable","FF0000","","","","") " open folder arrow
+call s:X("NERDTreeDir","ffc600","","","","")      " folder name
+hi! link NERDTreeDirSlash Ignore
+
+call s:X("NERDTreeExecFile","967EFB","","","","")       " executable file name
 
 if !exists("g:cobalt_bg_256")
   let g:cobalt_bg_256="NONE"
