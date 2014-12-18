@@ -1,0 +1,646 @@
+<html lang="en" data-ember-extension="1"><head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width">
+
+  <title>CSS-Tricks</title>
+
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Code+Pro:400,700" rel="stylesheet">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CSS-Tricks Search">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/CssTricks">
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="http://css-tricks.com">
+<link rel="next" href="http://css-tricks.com/page/2/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CSS-Tricks">
+<meta property="og:description" content="CSS-Tricks is a website about websites.">
+<meta property="og:url" content="http://css-tricks.com">
+<meta property="og:site_name" content="CSS-Tricks">
+<meta property="article:publisher" content="https://www.facebook.com/CSSTricks">
+<meta property="og:image" content="http://css-tricks.com/wp-content/uploads/2014/03/css-tricks-star.png">
+<div class="fit-vids-style">­<style>               .fluid-width-video-wrapper {                 width: 100%;                              position: relative;                       padding: 0;                            }                                                                                   .fluid-width-video-wrapper iframe,        .fluid-width-video-wrapper object,        .fluid-width-video-wrapper embed,         .fluid-width-video-wrapper video {           position: absolute;                       top: 0;                                   left: 0;                                  width: 100%;                              height: 100%;                          }                                       </style></div><script type="application/ld+json">{ "@context": "http://schema.org", "@type": "WebSite", "url": "http://css-tricks.com/", "potentialAction": { "@type": "SearchAction", "target": "http://css-tricks.com/?s={search_term}", "query-input": "required name=search_term" } }</script>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<script type="text/javascript" src="http://css-tricks.com/wp-content/uploads/minqueue-cache/minqueue-ca14aaa7-f6a9f932.js"></script>
+<!-- Better Art Direction Styles -->
+
+  <!--[if !IE]><!-->
+  <link rel="stylesheet" href="http://css-tricks.com/wp-content/themes/CSS-Tricks-12/style.css?v=5.0">
+  <!--<![endif]-->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" href="http://css-tricks.com/wp-content/themes/CSS-Tricks-12/css/oldie.css">
+  <![endif]-->
+  <!--[if IE 9]>
+  <link rel="stylesheet" href="http://css-tricks.com/wp-content/themes/CSS-Tricks-12/style.css?v=5.0>
+  <![endif]-->
+
+<script async="" src="http://s3.buysellads.com/ac/bsa.js"></script>
+<script type="text/javascript" id="_bsap_js_3469a2a501a9e18091036aa0c89f9dcb" src="//s3.buysellads.com/r/s_3469a2a501a9e18091036aa0c89f9dcb.js?v=1418896800000" async="async"></script>
+<script type="text/javascript" src="//s3.buysellads.com/ac/pro.js" id="_bsap_premium_pro"></script>
+<script type="text/javascript" id="_bsaPRO_js" src="//srv.buysellads.com/ads/get/ids/CV7DV5V/?r=1418896800000" async="async"></script>
+</head>
+
+<body class="home blog">
+
+    <script>
+  (function(){
+    var bsa = document.createElement('script');
+       bsa.async = true;
+       bsa.src = 'http://s3.buysellads.com/ac/bsa.js';
+    (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+  })();
+  </script>
+
+  <div class="page-wrap">
+
+    <header id="top" class="top">
+
+  <div class="top-bar">
+    <a href="/"></a>
+  </div>
+
+<a class="top-treehouse-ad group" href="http://teamtreehouse.com/join/now?utm_source=css-tricks&amp;utm_medium=display&amp;utm_content=leaderboard&amp;cid=1148">
+      <div class="treehouse-slogan">
+        <span class="dreams">Grow your CSS skills.</span>
+        <strong class="love">Land your dream job.</strong>
+      </div>
+    </a>
+  
+  <div class="second-bar">
+
+    <nav class="main-nav" id="main-nav">
+
+  <a href="/" class="home">
+    Blog
+  </a>
+  <a href="/video-screencasts/" class="videos">
+    Videos
+  </a>
+  <a href="/almanac/" class="almanac">
+    Almanac
+  </a>
+  <a href="/snippets/" class="snippets">
+    Snippets
+  </a>
+  <a href="/forums/" class="forums">
+    Forums
+  </a>
+
+  <a href="/jobs/" class="jobs">
+    Jobs
+  </a>
+
+  <a href="/lodge/" class="lodge">
+    Lodge
+  </a>
+
+</nav>
+    <section class="search" role="search">
+
+      <form id="search-form" action="/search-results/">
+
+        <div class="flexy-search">
+          <label for="q" id="search-label">
+            <span class="screen-reader">Search</span>
+            <svg viewBox="0 0 100 100" class="shape-search">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-search"></use>
+            </svg>
+          </label>
+          <input aria-labelledby="search-label" id="q" required="" type="search" name="q" class="search-field" value="">
+        </div>
+
+        <div>
+          <input type="submit" value="Search" class="screen-reader">
+        </div>
+
+      </form>
+
+    </section>
+
+  </div>
+
+</header>
+
+    <div class="content-wrap">
+
+<div class="grid group">
+
+  <section class="blog-posts grid-2-3">
+
+    
+      
+        <article class="module module-blogpost" id="post-190773">
+
+          <time datetime="2014-12-17" class="bar-time">
+            December 17, 2014          </time>
+
+          <h2>
+            <a href="http://css-tricks.com/relating-designing-performance-lara-hogan/">
+              Relating to “Designing for Performance” by Lara Hogan            </a>
+          </h2>
+
+          <p>I picked me up a copy of Lara Hogan's new book <a href="http://shop.oreilly.com/product/0636920033578.do">Designing for Performance</a> (<a href="http://www.amazon.com/gp/product/1491902515/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1491902515&amp;linkCode=as2&amp;tag=chriscoyier-20&amp;linkId=2TUR476OH6TGGE4L">Amazon</a>), as it's a subject I've very interested in these days. As I write this, I'm just off the heels of doing quite a bit of performance related work here on CSS-Tricks as well as on CodePen. </p>
+<p>I thought I'd give the book a read, learn some more, and be inspired to <em>do</em> some more. Here's some choice quotes and how they relate to …</p>
+          <a class="read-article" href="http://css-tricks.com/relating-designing-performance-lara-hogan/">Read Article →</a>
+
+        </article>
+
+      
+      
+    
+      
+        <article class="module module-hotlink" id="post-190941">
+
+          <h2 class="h4">
+            <a href="https://www.igvita.com/2014/12/15/capability-reporting-with-service-worker/" class="read-article">
+              <svg viewBox="0 0 100 100" class="shape-arrow-right">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-arrow-right"></use>
+              </svg>
+              Capability Reporting with Service Worker</a>&nbsp;<a href="http://css-tricks.com/capability-reporting-service-worker/" class="permalink"><svg viewBox="0 0 100 52" class="shape-link">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-link"></use>
+              </svg></a>
+          </h2>
+
+          <p>We've heard 1,000 times: User Agent sniffing is bad news. We largely do it on the server because we want to know stuff about the client before we even send anything to the client. A worthy goal!</p>
+<p>We've talked about this before. Perhaps you <a href="http://css-tricks.com/sprinkling-php-server-side-techniques-help-front-end-tasks/">serve a little different JavaScript</a> for a different approach to navigation. Or you <a href="http://css-tricks.com/make-client-side-data-available-server-side/">set a cookie with client side data</a> and use that to serve different image formats depending on support. Maybe you even <a href="http://css-tricks.com/single-page-refresh-client-side-data-server-side/">refresh the page</a> to ensure you have that data. There are even <a href="https://github.com/dmolsen/Detector">libraries</a> for all this.</p>
+<p>Service Workers, a brand new thing on the web, are uniquely qualified to help with this problem as they sit between the client and server and can manipulate requests to pass additional data. </p>
+
+        </article>
+
+      
+      
+    
+      
+        <article class="module module-hotlink" id="post-190938">
+
+          <h2 class="h4">
+            <a href="http://aykevl.nl/2014/09/fix-jumping-scrollbar" class="read-article">
+              <svg viewBox="0 0 100 100" class="shape-arrow-right">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-arrow-right"></use>
+              </svg>
+              More Elegant Fix for Jumping Scrollbar Issue</a>&nbsp;<a href="http://css-tricks.com/elegant-fix-jumping-scrollbar-issue/" class="permalink"><svg viewBox="0 0 100 52" class="shape-link">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-link"></use>
+              </svg></a>
+          </h2>
+
+          <p>If you move from one page of a site <em>without</em> a scrollbar to another <em>with</em> a scrollbar, you'll see a slight layout shift as things squeeze inward a bit to make room for the scrollbar. </p>
+<p>A classic fix was <code>html { overflow-y: scroll; }</code> to force the scrollbar all the time. Ayke van Laëthem has found a more elegant solution in <code>html { margin-left: calc(100vw - 100%); }</code> which works because vw accounts for the scrollbar and % doesn't, and... just read it as there are a few more things you'll need to be aware of anyway.</p>
+<p>Pretty sweet for a first blog post Ayke!</p>
+
+        </article>
+
+      
+                        <div class="bsap-doubles">
+            <div id="bsap_1250418" class="bsap bsap_1250418" data-serve="CV7DV5V"></div>
+          </div>
+              
+    
+      
+        <article class="module module-blogpost" id="post-190876">
+
+          <time datetime="2014-12-15" class="bar-time">
+            December 15, 2014          </time>
+
+          <h2>
+            <a href="http://css-tricks.com/smacss-press/">
+              SMACSS-Press            </a>
+          </h2>
+
+          <p><em class="explanation">The following is a guest post by <a href="http://scottfennell.org/">Scott Fennell</a>. Scott saw a recent post here on CSS-Tricks about class names in WordPress and had some his own ideas about exerting control, rather than leaving things as they are. His idea is to enforce a more SMACSS style philosophy where possible.</em>…</p>
+          <a class="read-article" href="http://css-tricks.com/smacss-press/">Read Article →</a>
+
+        </article>
+
+      
+      
+    
+      
+        <article class="module module-blogpost" id="post-190610">
+
+          <time datetime="2014-12-12" class="bar-time">
+            December 12, 2014          </time>
+
+          <h2>
+            <a href="http://css-tricks.com/design-considerations-text-images/">
+              Design Considerations: Text on Images            </a>
+          </h2>
+
+          <p>I enjoyed Erik D. Kennedy's post <a href="https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96">7 Rules for Creating Gorgeous UI (Part 2)</a>. In it, his Rule 4 is: <em>Learn the methods of overlaying text on images</em>. I thought we could take a look at all his points, code them up, and note anything that comes up technically.…</p>
+          <a class="read-article" href="http://css-tricks.com/design-considerations-text-images/">Read Article →</a>
+
+        </article>
+
+      
+      
+    
+      
+        <article class="module module-hotlink" id="post-190534">
+
+          <h2 class="h4">
+            <a href="http://teamtreehouse.com/join/now?utm_source=css-tricks&amp;utm_medium=blog&amp;utm_content=post&amp;cid=1148" class="read-article">
+              <svg viewBox="0 0 100 100" class="shape-arrow-right">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-arrow-right"></use>
+              </svg>
+              Sponsor: Treehouse</a>&nbsp;<a href="http://css-tricks.com/sponsor-treehouse/" class="permalink"><svg viewBox="0 0 100 52" class="shape-link">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-link"></use>
+              </svg></a>
+          </h2>
+
+          <p>Treehouse has been a long time sponsor here on CSS-Tricks. You know them. They do online training for web and mobile design and development. Here's a couple of things that I think are especially cool about Treehouse:</p>
+<ul>
+<li>There are conference videos in there you won't find anywhere else. I was just poking around and found three videos of <em>me</em> at conferences I was recently at!</li>
+<li>There are of course tons of courses, but they are very <em>well organized</em> into tracks which help you focus on a path you're most interested in.</li>
+<li>They walk the walk with a beautiful website themselves.</li>
+<li>While I would never discourage anyone from going to a university, it's likely you'll learn more up-to-date practical tech on Treehouse for less than 1% of the cost.</li>
+</ul>
+<p>I was talking with Micah, one of their guys over there, and he brought up a good point: while you <em>can</em> dig into Treehouse and binge learn for hours at a time, you can also learn a lot just by stopping in for 15 minutes a day.</p>
+<p><small><a href="http://css-tricks.com/advertising/">(Advertising on CSS-Tricks)</a></small></p>
+
+        </article>
+
+      
+      
+    
+      
+        <article class="module module-blogpost" id="post-190426">
+
+          <time datetime="2014-12-09" class="bar-time">
+            December 9, 2014          </time>
+
+          <h2>
+            <a href="http://css-tricks.com/exposing-form-fields-radio-button-css/">
+              Exposing Additional Form Fields via Checked Radio Buttons            </a>
+          </h2>
+
+          <p>There is a <code>:checked</code> pseudo class in CSS. I often think of it in connection with <a href="http://css-tricks.com/the-checkbox-hack/">the "checkbox hack"</a>, in which you use it on a hidden checkbox with the ~ general sibling combinator to do simulate toggling behavior without any JavaScript. It's a hack because now you have these stray form elements on the page that really aren't for a form. Not a huge deal, as I'm sure you can work around it accessibility wise, but there is …</p>
+          <a class="read-article" href="http://css-tricks.com/exposing-form-fields-radio-button-css/">Read Article →</a>
+
+        </article>
+
+      
+      
+    
+      
+        <article class="module module-hotlink" id="post-190420">
+
+          <h2 class="h4">
+            <a href="http://codepen.io/jobs" class="read-article">
+              <svg viewBox="0 0 100 100" class="shape-arrow-right">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-arrow-right"></use>
+              </svg>
+              The CodePen Job Board</a>&nbsp;<a href="http://css-tricks.com/codepen-job-board/" class="permalink"><svg viewBox="0 0 100 52" class="shape-link">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-link"></use>
+              </svg></a>
+          </h2>
+
+          <p>We just launched it! It's a niche job board (of course) targeted at front end developers and designers. </p>
+<p>Not only is it the CodePen Job Board, but it's also the official job board <a href="http://css-tricks.com/jobs/">here on CSS-Tricks</a> and <a href="http://shoptalkshow.com/jobs/">on ShopTalk</a> as well.</p>
+<p>We hope it's both useful to those of you looking for jobs in this field and companies looking to hire.</p>
+
+        </article>
+
+      
+      
+    
+      
+        <article class="module module-blogpost" id="post-190287">
+
+          <time datetime="2014-12-08" class="bar-time">
+            December 8, 2014          </time>
+
+          <h2>
+            <a href="http://css-tricks.com/bookkeeping-freelance-front-end-developer/">
+              What is bookkeeping for a freelance front end developer?            </a>
+          </h2>
+
+          <p><em class="explanation">The following is a guest post by my friend <a href="https://twitter.com/allanbranch">Allan Branch</a>. Allan runs <a href="https://lessaccounting.com/">Less Accounting</a>, web software for accounting. True story for me: it's only been this last year where I've gotten my stuff together and taken accounting seriously. (With a lot of help, of course, thanks Dee!) The advantages are significant. Not worrying about tax time and owing huge unknown amounts of money. Not scrambling to do everything at the last minute. But my favorite thing is </em>…</p>
+          <a class="read-article" href="http://css-tricks.com/bookkeeping-freelance-front-end-developer/">Read Article →</a>
+
+        </article>
+
+      
+      
+    
+    
+      <article class="module module-video module-blogpost" id="post-190764">
+
+        <img class="video-module-thumbnail" src="http://css-tricks.com/wp-content/uploads/2014/12/135-thumb.png" alt="">
+
+        <time datetime="2014-12-14" class="bar-time">
+          Latest Video
+        </time>
+
+        <h2>
+          <a href="http://css-tricks.com/video-screencasts/135-three-ways-animate-svg/">
+            #135: Three Ways to Animate SVG          </a>
+        </h2>
+
+        <p>Animating SVG is a bit unique in that there are three distinctly different ways you can approach animating it. …</p>
+        <a class="read-article" href="http://css-tricks.com/video-screencasts/135-three-ways-animate-svg/">Watch Video →</a>
+
+      </article>
+
+    <p><a href="/archives/" class="button full-width-button">More Blog Posts →</a></p>
+
+  </section>
+
+  <aside class="grid-1-3">
+
+    <div class="module module-image-ad module-treehouse">
+
+    <div class="sidebar-treehouse-ad-wrap">
+      <iframe src="http://css-tricks.com/wp-content/themes/CSS-Tricks-12/ads/treehouse/1/" class="sidebar-treehouse-ad" scrolling="no"></iframe>
+    </div>
+
+    <p><a href="http://teamtreehouse.com/join/now?utm_source=css-tricks&amp;utm_medium=display&amp;utm_content=sidebar&amp;cid=1148">Treehouse</a> is where you go to learn HTML, CSS, and how to build iOS apps. It's a complete education in modern web and app technology, designed to get you ready for a hot new job or to kickstart your own business.</p>
+
+  </div>
+
+  <div class="module group module-lodge">
+
+    <p class="intro-lodge"><a href="/lodge/">The Lodge</a> is a <a href="/wp-login.php">member login</a> only area with access to video training on how to build websites from scratch using the best modern tools.</p>
+
+    <div class="lodge-actions">
+      <a href="/lodge/signup/" class="button">Sign up!</a>
+    </div>
+
+  </div>
+
+    <div class="module module-image-ad">
+
+    <a id="wufoo-ad-graphic" class="wufoo-ad-graphic" href="http://ad.doubleclick.net/ddm/clk/270735259;104033101;o?http://www.wufoo.com/landing/1/?utm_source=csstricks&amp;utm_medium=ppc&amp;cmpid=brand&amp;utm_network=d&amp;utm_term=csstricks600x600banner">
+      <div id="i-produce-free-content"></div>
+    </a>
+
+    <p>
+      <a href="http://ad.doubleclick.net/ddm/clk/270735316;104033101;i?http://www.wufoo.com/landing/1/?utm_source=csstricks&amp;utm_medium=ppc&amp;cmpid=brand&amp;utm_network=d&amp;utm_term=csstrickstextlinkwufoo">Wufoo</a> is the most powerful online form builder out there. Easily build multi-page forms, add logic and branching, customize the design, take payments, and much more.
+
+      <a href="http://ad.doubleclick.net/ddm/clk/270735352;104033101;i?http://www.wufoo.com/landing/1/?utm_source=csstricks&amp;utm_medium=ppc&amp;cmpid=brand&amp;utm_network=d&amp;utm_term=csstrickstextlinktryitfree">Try&nbsp;it&nbsp;free!</a><img src="http://ad.doubleclick.net/ad/N7439.1063086.CSS-TRICKS.COM/B7043538.104033101;sz=1x1;kw=[url_encoded_publisher_data];ord=2014-12-18T10:21:42+00:00?'); ?&gt;?">
+    </p>
+  </div>
+  
+  <div class="module module-poll">
+    <div id="polls-51" class="wp-polls">
+  <form id="polls_form_51" class="wp-polls-form" action="/index.php" method="post">
+    <p style="display: none;"><input type="hidden" id="poll_51_nonce" name="wp-polls-nonce" value="2ff1bbeeb8"></p>
+    <p style="display: none;"><input type="hidden" name="poll_id" value="51"></p>
+    <h4>How many people touch the CSS in your current main project?</h4>
+
+<div id="polls-51-ans" class="wp-polls-ans">
+
+<ul class="wp-polls-ul group">
+    <li class="group"><input type="radio" id="poll-answer-287" name="poll_51" value="287"> <label for="poll-answer-287">1 (just me!)</label></li>
+    <li class="group"><input type="radio" id="poll-answer-288" name="poll_51" value="288"> <label for="poll-answer-288">2 (me and one other person)</label></li>
+    <li class="group"><input type="radio" id="poll-answer-289" name="poll_51" value="289"> <label for="poll-answer-289">3-5 (a small team)</label></li>
+    <li class="group"><input type="radio" id="poll-answer-290" name="poll_51" value="290"> <label for="poll-answer-290">6-10 (a medium team)</label></li>
+    <li class="group"><input type="radio" id="poll-answer-291" name="poll_51" value="291"> <label for="poll-answer-291">11-25 (a large team)</label></li>
+    <li class="group"><input type="radio" id="poll-answer-292" name="poll_51" value="292"> <label for="poll-answer-292">26+ (what is happening)</label></li>
+    </ul>
+
+<p class="voting-buttons">
+
+<input type="button" name="vote" value="   Vote   " class="button" onclick="poll_vote(51);" onkeypress="poll_result(51);"> &nbsp; <a href="#ViewPollResults" class="button" onclick="poll_result(51); return false;" onkeypress="poll_result(51); return false;" title="View Results Of This Poll">View Results</a>
+
+</p>
+
+</div>
+  </form>
+</div>
+  </div>
+  <div class="module module-subscribe group">
+
+    <h4><a href="/subscription-options/">Subscribe</a></h4>
+
+    <div class="group">
+    <a href="http://feeds.feedburner.com/CssTricks" class="square-link square-rss">
+      <svg viewBox="0 0 100 100" class="shape-rss">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#rss-1"></use>
+      </svg>
+      <svg viewBox="0 0 100 100" class="shape-rss">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#rss-2"></use>
+      </svg>
+      <svg viewBox="0 0 100 100" class="shape-rss">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#rss-3"></use>
+      </svg>
+      <span>RSS</span>
+    </a>
+
+    <a class="square-link square-itunes" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=273881728">
+      <svg viewBox="0 0 100 100" class="shape-itunes">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-itunes"></use>
+      </svg>
+      <span>iTunes</span>
+    </a>
+    </div>
+
+    <div id="mc_embed_signup" class="mailchimp-signup">
+
+      <h4>Posts by Email</h4>
+
+      <form action="http://chriscoyier.us2.list-manage2.com/subscribe/post?u=155f5a9ccc4e24c318130cace&amp;id=197f127a68" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+        <div class="mc-field-group">
+          <label for="mce-EMAIL">Email Address</label>
+          <input type="email" value="" name="EMAIL" class="required email fullwidth" id="mce-EMAIL">
+        </div>
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>
+          <div style="position: absolute; left: -5000px;"><input type="text" name="b_155f5a9ccc4e24c318130cace_197f127a68" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="Subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </form>
+
+    </div>
+
+    <p><a href="/subscription-options/">See all subscription options</a></p>
+
+  </div>
+
+</aside>
+</div>
+
+    </div>
+    <footer class="site-footer social-footer group">
+
+      <h2 class="upcomer">Social</h2>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="http://twitter.com/chriscoyier" class="social-twitter">
+            <svg viewBox="0 0 100 100" class="shape-twitter">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-twitter"></use>
+            </svg>
+            <span>Twitter <span>@chriscoyier</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="http://twitter.com/real_css_tricks" class="social-twitter">
+            <svg viewBox="0 0 100 100" class="shape-twitter">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-twitter"></use>
+            </svg>
+            <span>Twitter <span>@real_css_tricks</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="http://pinboard.in/u:chriscoyier" class="social-pinboard">
+            <svg viewBox="0 0 100 100" class="shape-pinboard">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-pinboard"></use>
+            </svg>
+            <span>Pinboard <span>chriscoyier</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="http://facebook.com/CSSTricks" class="social-facebook">
+            <svg viewBox="0 0 100 100" class="shape-facebook">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-facebook"></use>
+            </svg>
+            <span>Facebook <span>CSSTricks</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="http://dribbble.com/chriscoyier" class="social-dribbble">
+            <svg viewBox="0 0 100 100" class="shape-dribble">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-dribbble"></use>
+            </svg>
+            <span>Dribbble <span>chriscoyier</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="http://plus.google.com/101987072260327250694/posts" class="social-googleplus">
+            <svg viewBox="0 0 100 100" class="shape-googleplus">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googleplus-1"></use>
+            </svg>
+            <svg viewBox="0 0 100 100" class="shape-googleplus">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googleplus-2"></use>
+            </svg>
+            <svg viewBox="0 0 100 100" class="shape-googleplus">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googleplus-3"></use>
+            </svg>
+            <span>Google+ <span>ChrisCoyier</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.youtube.com/realcsstricks" class="social-youtube">
+            <svg viewBox="0 0 100 100" class="shape-youtube">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-youtube"></use>
+            </svg>
+            <span>YouTube <span>realcsstricks</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="http://codepen.io/chriscoyier" class="social-codepen">
+            <svg viewBox="0 0 100 100" class="shape-codepen">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#codepen-1"></use>
+            </svg>
+            <svg viewBox="0 0 100 100" class="shape-codepen">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#codepen-2"></use>
+            </svg>
+            <span>CodePen <span>chriscoyier</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/chriscoyier/" class="social-github">
+            <svg viewBox="0 0 100 100" class="shape-github">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-github"></use>
+            </svg>
+            <span>GitHub <span>chriscoyier</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/CSS-Tricks/" class="social-github">
+            <svg viewBox="0 0 100 100" class="shape-github">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-github"></use>
+            </svg>
+            <span>GitHub <span>CSS-Tricks Org</span></span>
+          </a>
+        </li>
+      </ul>
+
+    </footer>
+
+    <footer class="site-footer promo-footer group">
+
+      <h2 class="upcomer">Projects</h2>
+
+      <div class="promo-footer-parts">
+
+        <div class="promo-footer-part footer-codepen group">
+          <a href="http://codepen.io/hello/" class="promo-footer-logo">
+            <svg viewBox="0 0 100 100" class="shape-codepen">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#codepen-1"></use>
+            </svg>
+            <svg viewBox="0 0 100 100" class="shape-codepen">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#codepen-2"></use>
+            </svg>
+          </a>
+          <p>
+            <a href="http://codepen.io">
+              CodePen</a>
+            is a social code playground for web designers and developers. Build demos, find inspiration, or troubleshoot code. With <a href="http://codepen.io/pro/">CodePen PRO</a> you can teach students, pair program, host files, and more!
+          </p>
+        </div>
+
+        <div class="promo-footer-part footer-shoptalk group">
+          <a href="http://shoptalkshow.com" class="promo-footer-logo">
+            <svg viewBox="25.9 -0.4 252.3 200.8" class="shape-shoptalk">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-shoptalk"></use>
+            </svg>
+          </a>
+          <p>
+            <a href="http://shoptalkshow.com">
+              ShopTalk</a>
+             is a podcast about all things web design and development hosted by Dave Rupert and me. The show is recorded live and covers the week in #hotdrama and listener Q&amp;A.
+           </p>
+        </div>
+
+      </div>
+
+    </footer>
+
+    <footer class="site-footer footer-links">
+
+      <h2 class="upcomer">Linkage</h2>
+
+      <p>
+        <a href="/contact/">Contact</a>
+        <a href="/about/">About</a>
+        <a href="/advertising/">Advertise</a>
+        <a href="/license/">License</a>
+        <a href="/archives/">Archives</a>
+        <a href="/store/">Store</a>
+        <a href="/jobs/">Jobs</a>
+      </p>
+    </footer>
+
+    <footer class="site-footer footer-slogan">
+
+      <h2 class="upcomer">Colophon</h2>
+
+      <p>CSS-Tricks* is created, written by, and maintained by <a href="http://chriscoyier.net">Chris Coyier</a>. It is built on <a href="http://wordpress.org/">WordPress</a>, hosted by <a href="http://www.mediatemple.net/#a_aid=4e25c84480ed2">MediaTemple</a>, and the assets are served by <a href="http://tracking.maxcdn.com/c/13088/3982/378">MaxCDN</a>. The fonts are Source Sans and Source Code Pro. It is made possible by viewers like you who subscribe to <a href="/lodge/">The Lodge</a> and through advertising for products and services I like.</p>
+
+    </footer>
+
+    <p class="mega-big-time-warning"><small>*May or may not contain any actual "CSS" or "Tricks".</small></p>
+
+  </div>
+
+  <script>var pollsL10n = {"ajax_url":"http:\/\/css-tricks.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"0","show_fading":"1"};</script><script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://css-tricks.com/wp-content/uploads/minqueue-cache/minqueue-cb4ed8f2-f9305012.js"></script>
+
+  <script src="http://css-tricks.com/wp-content/themes/CSS-Tricks-12/js/min/global-ck.js"></script>
+<script async="" src="//codepen.io/assets/embed/ei.js"></script>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+
+ Served from: css-tricks.com @ 2014-12-18 03:21:42 by W3 Total Cache --></body></html>

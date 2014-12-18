@@ -1,0 +1,303 @@
+settings:
+{
+  bg: #193549
+  bg-best: #485975
+  caret: #ffc600
+  fg: #FFFFFF
+  invisibles: #ffc600
+  lineHighlight: #1f4662
+  selection: #0050a4
+
+  bracketsfg: #ffc600
+
+  bracketContentsfg: #000000
+
+  guide: #3b5364
+  activeGuide: #ffc600
+  stackGuide: #5a7b92
+
+}
+
+name: Punctuation
+scope: punctuation - (punctuation.definition.string || punctuation.definition.comment)
+  fg: #E1EFFF
+
+name: Constant
+scope: constant
+  fg: #FF628C
+
+name: Entity
+scope: entity
+  fg: #ffc600
+
+name: Keyword
+scope: keyword
+  fg: #FF9D00
+
+name: Storage
+scope: storage
+  fg: #ffc600
+
+name: String
+scope: string -string.unquoted.old-plist -string.unquoted.heredoc, string.unquoted.heredoc string
+  fg: #3AD900
+
+name: Comment
+scope: comment
+  fontStyle: italic, fg: #0088FF
+
+name: Support
+scope: support
+  fg: #80FFBB
+
+name: Variable
+scope: variable
+  fg: #CCCCCC, bg: #0d3a58
+
+name: Lang Variable
+scope: variable.language
+  fg: #FF80E1
+
+name: Function Call
+scope: meta.function-call
+  fg: #FFEE80
+
+name: Invalid
+scope: invalid
+  bg: #800F00, fg: #F8F8F8
+
+name: Embedded Source
+scope: text source, string.unquoted.heredoc, source source
+  bg: #223545, fg: #FFFFFF
+
+name: Entity inherited-class
+scope: entity.other.inherited-class
+  fontStyle: italic, fg: #80FCFF
+
+name: String embedded-source
+scope: string.quoted source
+  fg: #9EFF80
+
+name: String constant
+scope: string constant
+  fg: #80FF82
+
+name: String.regexp
+scope: string.regexp
+  fg: #80FFC2
+
+name: String variable
+scope: string variable
+  fg: #EDEF7D
+
+name: Support.function
+scope: support.function
+  fg: #FFB054
+
+name: Support.constant
+scope: support.constant
+  fg: #EB939A
+
+name: Exception
+scope: support.type.exception
+  fg: #FF1E00
+
+name: C/C++ Preprocessor Line
+scope: meta.preprocessor.c
+  fg: #8996A8
+
+name: C/C++ Preprocessor Directive
+scope: meta.preprocessor.c keyword
+  fg: #AFC4DB
+
+name: Doctype/XML Processing
+scope: meta.sgml.html meta.doctype, meta.sgml.html meta.doctype entity,
+meta.sgml.html meta.doctype string, meta.xml-processing, meta.xml-processing
+entity, meta.xml-processing string
+  fg: #73817D
+
+name: Meta.tag.A
+scope: meta.tag, meta.tag entity
+  fg: #9EFFFF
+
+name: css tag-name
+scope: meta.selector.css entity.name.tag
+  fg: #9EFFFF
+
+name: css#id
+scope: meta.selector.css entity.other.attribute-name.id
+  fg: #FFB454
+
+name: css.class
+scope: meta.selector.css entity.other.attribute-name.class
+  fg: #5FE461
+
+name: css property-name:
+scope: support.type.property-name.css
+  fg: #9DF39F
+
+name: css property-value;
+scope: meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css
+  fg: #F6F080
+
+name: css @at-rule
+scope: meta.preprocessor.at-rule keyword.control.at-rule
+  fg: #F6AA11
+
+name: css additional-constants
+scope: meta.property-value support.constant.named-color.css, meta.property-value constant
+  fg: #EDF080
+
+name: css constructor.argument
+scope: meta.constructor.argument.css
+  fg: #EB939A
+
+name: diff.header
+scope: meta.diff, meta.diff.header
+  bg: #000E1A, fg: #F8F8F8
+
+name: diff.deleted
+scope: markup.deleted
+  bg: #ee3a43, fg: #F8F8F8
+
+name: diff.changed
+scope: markup.changed
+  bg: #806F00, fg: #F8F8F8
+
+name: diff.inserted
+scope: markup.inserted
+  bg: #154F00, fg: #F8F8F8
+
+name: Raw Markup
+scope: markup.raw
+  bg: #8FDDF630
+
+name: Block Quote
+scope: markup.quote
+  bg: #004480
+
+name: List
+scope: markup.list
+  bg: #130D26
+
+name: Bold Markup
+scope: markup.bold
+  fontStyle: bold, fg: #C1AFFF
+
+name: Italic Markup
+scope: markup.italic
+  fontStyle: italic, fg: #B8FFD9
+
+name: Heading Markup
+scope: markup.heading
+  bg: #001221, fontStyle: bold, fg: #C8E4FD
+
+name: SublimeLinter Annotations
+scope: sublimelinter.annotations
+  bg: #FFFFAA, fg: #FFFFFF
+
+name: SublimeLinter Error Outline
+scope: sublimelinter.outline.illegal
+  bg: #FF4A52 ,fg: #FFFFFF
+
+name: SublimeLinter Error Underline
+scope: sublimelinter.underline.illegal
+  bg: #FF0000
+
+name: SublimeLinter Warning Outline
+scope: sublimelinter.outline.warning
+  bg: #DF9400, fg: #FFFFFF
+
+name: SublimeLinter Warning Underline
+scope: sublimelinter.underline.warning
+  bg: #FF0000
+
+name: SublimeLinter Violation Outline
+scope: sublimelinter.outline.violation
+  bg: #ffffff, fg: #FFFFFF
+
+name: SublimeLinter Violation Underline
+scope: sublimelinter.underline.violation
+  bg: #FF0000
+
+<!-- PHP -->
+
+name: PHP class name
+scope: entity.name.type.class.php
+  fg: #80FFC2
+
+name: PHP function name
+scope: entity.name.function.php
+  bg: #333333
+
+name: GitGutter deleted
+scope: markup.deleted.git_gutter
+  fg: #F92672
+
+name: GitGutter inserted
+scope: markup.inserted.git_gutter
+  fg: #A6E22E
+
+name: GitGutter changed
+scope: markup.changed.git_gutter
+  fg: #967EFB
+
+name: GitGutter ignored
+scope: markup.ignored.git_gutter
+  fg: #565656
+
+name: GitGutter untracked
+scope: markup.untracked.git_gutter
+  fg: #565656
+
+<!-- Bracket Highlighter -->
+
+name: Bracket Tag
+scope: brackethighlighter.tag
+  fg: #1f4662
+
+name: Bracket Curly
+scope: brackethighlighter.curly
+  fg: #ffc600
+
+name: Bracket Round
+scope: brackethighlighter.round
+  fg: #ffc600
+
+name: Bracket Square
+scope: brackethighlighter.square
+  fg: #ffc600
+
+name: Bracket Angle
+scope: brackethighlighter.angle
+  fg: #FFDD00
+
+name: Bracket Quote
+scope: brackethighlighter.quote
+  fg: #ffc600
+
+name: Bracket Unmatched
+scope: brackethighlighter.unmatched
+  fg: #F92672
+
+<!-- Language Specific -->
+
+<!-- JAVASCRIPT! -->
+name: JavaScript Function
+scope: storage.type.function.js
+  fg: #ffa5f3, bg: #1d3c52
+
+name: Quotes
+scope: punctuation.definition.string.begin.js, punctuation.definition.string.end.js
+  fg: #2eff00
+
+
+<!-- CSS -->
+
+name: CSS colon Divider
+scope: punctuation.separator.key-value.css
+  fg: #ffc600
+
+name: CSS Selector
+scope: source.css meta.selector.css
+  bg: #214a68
