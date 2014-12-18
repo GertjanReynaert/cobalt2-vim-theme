@@ -300,7 +300,8 @@ call s:X("String","3AD900","","","Green","")
 call s:X("StringDelimiter","3AD900","","","DarkGreen","")
 
 call s:X("Identifier","ff9d00","","","ffc600","")
-call s:X("Structure","8fbfdc","","","LightCyan","")
+hi! link Structure Comment
+" call s:X("Structure","#8fbfdc","","","LightCyan","")
 call s:X("Function","ffc600","","","Yellow","")
 call s:X("Statement","FF9D00","","","DarkBlue","")
 hi! link PreProc Identifier
@@ -390,6 +391,26 @@ hi! link erlangNode Identifier
 
 hi! link javaScriptValue Constant
 hi! link javaScriptRegexpString rubyRegexp
+
+call s:X("jsFunction","FFA5F3","","","","")
+call s:X("jsFuncCall","FFC600","","","","")
+call s:X("jsOperator","FF9D00","","","","")
+call s:X("jsStorageClass","FFC600","","","","")
+call s:X("jsFuncArgs","CCCCCC","","","","")
+
+call s:X("jsBuiltins","FF9D00","","","","")
+call s:X("jsUndefined","FF628C","","","","")
+call s:X("jsThis","EE80E1","","","","")
+call s:X("jsPrototype","EB939A","","","","")
+
+call s:X("jsRegexpOr","22FF00","","","","")         " #22FF00 | highlight
+call s:X("jsRegexpQuantifier","55FF66","","","","") " #55FF66 ? and {4}
+call s:X("jsRegexpGroup","22FF00","","","","")      " #22FF00 ( and )
+call s:X("jsRegexpBoundary","88FF88","","","","")   " #88FF88 start and end of regex
+call s:X("jsRegexpCharClass","9DFF99","","","","")  " #9DFF99 [A-z]
+call s:X("jsRegexpString","BBFFDD","","","","")     " #BBFFDD regular text
+call s:X("jsRegexpMod","ff00ff","","","","")        " #ff00ff no idea
+call s:X("jsRegexpBackRef","FF9D00","","","","")    " #FF9D00 no idea
 
 " CoffeeScript
 
