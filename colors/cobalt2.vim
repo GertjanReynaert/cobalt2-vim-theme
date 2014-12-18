@@ -413,7 +413,7 @@ call s:X("coffeeBlockComment","0088FF","","","","")   " #0088FF multiln comment
 call s:X("coffeeTodo","0088FF","","","","")           " #0088FF no idea
 call s:X("coffeeHeregexComment","0088FF","","","","") " #0088FF no idea
 call s:X("coffeeKeyword","FF9A00","","","","")        " #FF9A00 class
-call s:X("coffeeObject","80FCFF","","","","")         " #80FCFF className
+call s:X("coffeeObject","967EFB","","","","")         " #967EFB className
 call s:X("coffeeObjAssign","FFC600","","","","")      " #FFC600 methodname
 call s:X("coffeeExtendedOp","FF9A00","","","","")     " #FF9A00 operators : -> =
 call s:X("coffeeParen","CCCCCC","","","","")          " #CCCCCC ( )
