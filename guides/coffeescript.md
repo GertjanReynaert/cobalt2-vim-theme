@@ -3,7 +3,7 @@ coffeeBlockComment    comment         #0088FF multiln comment
 coffeeTodo            comment         #0088FF no idea
 coffeeHeregexComment  comment         #0088FF no idea
 coffeeKeyword         FF9A00          #FF9A00 class
-coffeeObject          967EFB          #967EFB className
+coffeeObject          00AAFF          #00AAFF className
 coffeeObjAssign       FFC600          #FFC600 methodname
 coffeeExtendedOp      FF9A00          #FF9A00 operators : -> =
 coffeeParen           CCCCCC          #CCCCCC ( )

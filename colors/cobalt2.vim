@@ -413,7 +413,7 @@ hi! link coffeeBlockComment comment
 hi! link coffeeTodo comment
 hi! link coffeeHeregexComment comment
 call s:X("coffeeKeyword","FF9A00","","","","")        " #FF9A00 class
-call s:X("coffeeObject","967EFB","","","","")         " #967EFB className
+call s:X("coffeeObject","00AAFF","","","","")         " #00AAFF className
 call s:X("coffeeObjAssign","FFC600","","","","")      " #FFC600 methodname
 call s:X("coffeeExtendedOp","FF9A00","","","","")     " #FF9A00 operators : -> =
 call s:X("coffeeParen","CCCCCC","","","","")          " #CCCCCC ( )
