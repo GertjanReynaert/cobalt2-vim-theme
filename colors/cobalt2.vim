@@ -299,11 +299,11 @@ call s:X("Delimiter","668799","","","Grey","")
 call s:X("String","3AD900","","","Green","")
 call s:X("StringDelimiter","3AD900","","","DarkGreen","")
 
-call s:X("Identifier","ff9d00","","","ffc600","")
+call s:X("Identifier","ff9A00","","","ff9A00","")
 hi! link Structure Comment
 " call s:X("Structure","#8fbfdc","","","LightCyan","")
 call s:X("Function","ffc600","","","Yellow","")
-call s:X("Statement","FF9D00","","","DarkBlue","")
+call s:X("Statement","ff9A00","","","DarkBlue","")
 hi! link PreProc Identifier
 
 hi! link Operator Structure
@@ -360,7 +360,7 @@ hi! link pythonOperator Statement
 
 " Ruby
 
-call s:X("rubyClass","ff9d00","","","DarkBlue","")
+call s:X("rubyClass","ff9A00","","","DarkBlue","")
 hi! link rubyModule rubyClass
 
 call s:X("rubyInstanceVariable","cccccc","","","Cyan","")
