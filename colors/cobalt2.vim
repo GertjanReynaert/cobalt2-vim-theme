@@ -408,10 +408,10 @@ call s:X("jsRegexpBackRef","FF9D00","","","","")    " #FF9D00 no idea
 
 " CoffeeScript
 
-call s:X("coffeeComment","0088FF","","","","")        " #0088FF comment
-call s:X("coffeeBlockComment","0088FF","","","","")   " #0088FF multiln comment
-call s:X("coffeeTodo","0088FF","","","","")           " #0088FF no idea
-call s:X("coffeeHeregexComment","0088FF","","","","") " #0088FF no idea
+hi! link coffeeComment comment
+hi! link coffeeBlockComment comment
+hi! link coffeeTodo comment
+hi! link coffeeHeregexComment comment
 call s:X("coffeeKeyword","FF9A00","","","","")        " #FF9A00 class
 call s:X("coffeeObject","967EFB","","","","")         " #967EFB className
 call s:X("coffeeObjAssign","FFC600","","","","")      " #FFC600 methodname
@@ -420,8 +420,8 @@ call s:X("coffeeParen","CCCCCC","","","","")          " #CCCCCC ( )
 call s:X("coffeeParens","CCCCCC","","","","")         " #CCCCCC parameter
 call s:X("coffeeSpecialOp","CCCCCC","","","","")      " #CCCCCC , in func params
 call s:X("coffeeStatement","FF9900","","","","")      " #FF9B00 return
-call s:X("coffeeString","3AD900","","","","")         " #3AD900 string
-call s:X("coffeeHeredoc","3AD900","","","","")        " #3AD900 multiline string
+hi! link coffeeString String
+hi! link coffeeHeredoc String
 call s:X("coffeeInterpDelim","FFFFFF","","","","")    " #FFFFFF interpolation #{}
 call s:X("coffeeInterp","9EFF80","","","","")         " #9EFF80 interp content
 call s:X("coffeeRegex","80FFC2","","","","")          " #80FFC2 regular expression
@@ -444,9 +444,9 @@ call s:X("coffeeConstant","FF628C","","","","")       " #FF628C constant
 call s:X("coffeeRepeat","FF9B00","","","","")         " #FF9B00 for loop keyword
 call s:X("coffeeGlobal","FF628C","","","","")         " #FF628C undefined
 call s:X("coffeeOperator","FF9B00","","","","")       " #FF9B00 typof
-call s:X("coffeeSemicolonError","FFFFFF","99150B","","","") " #99150B unnecess ;
-call s:X("coffeeReservedError","FFFFFF","99150B","","","")  " #99150B unnecess func
-call s:X("coffeeSpaceError","FF9D00","99150B","","","")     " #99150B no idea
+hi! link coffeeSemicolonError ErrorMsg
+hi! link coffeeReservedError ErrorMsg
+hi! link coffeeSpaceError ErrorMsg
 
 " Erlang
 
