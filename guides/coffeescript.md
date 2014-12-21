@@ -1,3 +1,6 @@
+Coffeescript
+============
+
 coffeeComment          comment
 coffeeBlockComment     multiln comment
 coffeeTodo             no idea
@@ -7,12 +10,12 @@ coffeeObjAssign        methodname
 coffeeExtendedOp       operators : -> =
 coffeeParen            ( )
 coffeeParens           parameter
-coffeeSpecialOp        , in func params
+coffeeSpecialOp        , in function parameters
 coffeeStatement        return
 coffeeString           string
 coffeeHeredoc          multiline string
 coffeeInterpDelim      interpolation #{}
-coffeeInterp           interp content
+coffeeInterp           interpolation content
 coffeeSpecialIdent     class var
 coffeeBracket          [ ]
 coffeeBrackets         array value
@@ -32,8 +35,8 @@ coffeeOperator         typof
 Errors
 ------
 
-coffeeSemicolonError   unnecess ;
-coffeeReservedError    unnecess func
+coffeeSemicolonError   unnecessary ;
+coffeeReservedError    unnecessary function
 coffeeSpaceError       no idea
 
 Regex

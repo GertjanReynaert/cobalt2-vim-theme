@@ -351,7 +351,7 @@ call s:X("Question","65C254","","","Green","")
 
 " Spell Checking
 
-call s:X("SpellBad","",g:dark_red,"underline","","DarkRed")
+call s:X("SpellBad",g:dark_red,"","underline","","DarkRed")
 call s:X("SpellCap","","0000df","underline","","Blue")
 call s:X("SpellRare","","540063","underline","","DarkMagenta")
 call s:X("SpellLocal","","2D7067","underline","","Green")
@@ -475,6 +475,21 @@ call s:X("coffeeOperator",g:dark_orange,"","","","")
 hi! link coffeeSemicolonError ErrorMsg
 hi! link coffeeReservedError ErrorMsg
 hi! link coffeeSpaceError ErrorMsg
+
+" HTML
+call s:X("htmlTag",g:light_grey,"","","","")
+call s:X("htmlEndTag",g:light_grey,"","","","")
+call s:X("htmlTagName",g:light_blue,"","","","")
+call s:X("htmlSpecialTagName",g:blue,"","","","")
+
+
+call s:X("htmlArg",g:dark_orange,"","","","")
+call s:X("htmlEvent",g:dark_orange,"","","","")
+call s:X("htmlString",g:yellow,"","","","")
+
+call s:X("htmlTitle",g:purple,"","","","")
+call s:X("htmlH1",g:light_orange,"","","","")
+call s:X("htmlItalic",g:pink,"","","","")
 
 " Erlang
 
