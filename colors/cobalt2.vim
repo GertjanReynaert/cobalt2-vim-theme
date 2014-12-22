@@ -414,7 +414,7 @@ call s:X("rubyRegexpEscape","80FFC2","","","","")
 hi! link javaScriptValue Constant
 hi! link javaScriptRegexpString rubyRegexp
 
-call s:X("jsFunction",g:lightest_pink,"","","","")
+call s:X("jsFunction",g:light_pink,"","","","")
 call s:X("jsFuncCall",g:yellow,"","","","")
 call s:X("jsOperator",g:light_orange,"","","","")
 call s:X("jsStorageClass",g:yellow,"","","","")
@@ -490,6 +490,8 @@ call s:X("htmlString",g:yellow,"","","","")
 call s:X("htmlTitle",g:purple,"","","","")
 call s:X("htmlH1",g:light_orange,"","","","")
 call s:X("htmlItalic",g:pink,"","","","")
+
+" Markdown
 
 " Erlang
 
