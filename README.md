@@ -39,6 +39,9 @@ Language support
 - [x] NERDtree (plugin)
 - [ ] airplane (plugin)
 
+All unsupported languages have a fallback to the default linked elements, or
+to predefined colors of the jellybeans color theme
+
 Currently not scheduled
 -----------------------
 
