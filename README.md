@@ -14,38 +14,31 @@ Contributions
 Pr's are always welcome. Please include a screenshot and a test file that
 demonstrates all the highlighted elements
 
-Supported languages
--------------------
+Language support
+----------------
 
-- Ruby
-- Javascript
-- Coffeescript
+- [x] Ruby
+- [x] Javascript
+  - [x] Coffeescript
 
-Supported Plugins
------------------
+- [ ] Css
+  - [ ] Scss
+  - [ ] (Sass)
+  - [ ] Less
 
-- NERDtree
+- [x] Html
+  - [ ] Erb
+  - [ ] Haml
+  - [ ] Handlebars
 
-Todo
-----
+- [ ] Markdown
+- [ ] JSON
+- [ ] Yaml
+- [ ] SQL
+- [ ] Shell
 
-[] Css
-  [] Scss
-  [] (Sass)
-  [] Less
-
-- Html
-  - Erb
-  - Haml
-  - Handlebars
-
-- Markdown
-- JSON
-- Yaml
-- SQL
-- Shell
-
-- airplane (plugin)
+- [x] NERDtree (plugin)
+- [ ] airplane (plugin)
 
 Currently not scheduled
 -----------------------
