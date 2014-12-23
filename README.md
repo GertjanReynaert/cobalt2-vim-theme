@@ -30,7 +30,7 @@ Language support
   - [ ] Haml
   - [ ] Handlebars
 
-- [ ] Markdown
+- [x] Markdown
 - [ ] JSON
 - [ ] Yaml
 - [ ] SQL
