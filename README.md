@@ -23,7 +23,6 @@ Language support
 
 - [ ] Css
   - [ ] Scss
-  - [ ] (Sass)
   - [ ] Less
 
 - [x] Html
