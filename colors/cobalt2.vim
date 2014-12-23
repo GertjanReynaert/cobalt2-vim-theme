@@ -492,6 +492,26 @@ call s:X("htmlH1",g:light_orange,"","","","")
 call s:X("htmlItalic",g:pink,"","","","")
 
 " Markdown
+call s:X("markdownH1",g:yellow,"","","","")
+hi! link markdownH2 markdownH1
+hi! link markdownH3 markdownH1
+hi! link markdownH4 markdownH1
+hi! link markdownH5 markdownH1
+hi! link markdownH6 markdownH1
+call s:X("markdownHeadingRule",g:dark_orange,"","","","")
+hi! link markdownHeadingDelimiter markdownHeadingRule
+
+call s:X("markdownRule",g:light_blue,"","","","")
+
+call s:X("markdownCode","AAAAAA","","","","")
+hi! link markdownCodeBlock markdownCode
+call s:X("markdownCodeDelimiter",g:dark_blue,"","","","")
+
+call s:X("markdownLinkText",g:green,"","","","")
+call s:X("markdownUrl",g:dark_pink,"","","","")
+
+call s:X("markdownId",g:yellow,"","","","")
+hi! link markdownIdDeclaration markdownId
 
 " Erlang
 
