@@ -438,7 +438,7 @@ call s:X("jsRegexpBackRef",g:light_orange,"","","","")
 
 hi! link coffeeComment comment
 hi! link coffeeBlockComment comment
-hi! link coffeeTodo comment
+hi! link coffeeTodo todo
 hi! link coffeeHeregexComment comment
 call s:X("coffeeKeyword",g:dark_orange,"","","","")
 call s:X("coffeeObject",g:blue,"","","","")
