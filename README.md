@@ -1,4 +1,5 @@
-# Cobalt2 Vim
+Cobalt2 Vim
+===========
 
 Install
 -------
@@ -28,10 +29,10 @@ Supported Plugins
 Todo
 ----
 
-- Css
-  - Scss
-  - (Sass)
-  - Less
+[] Css
+  [] Scss
+  [] (Sass)
+  [] Less
 
 - Html
   - Erb
