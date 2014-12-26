@@ -491,6 +491,11 @@ call s:X("htmlTitle",g:purple,"","","","")
 call s:X("htmlH1",g:light_orange,"","","","")
 call s:X("htmlItalic",g:pink,"","","","")
 
+" Haml
+hi! link hamlTag htmlTag
+hi! link hamlIdChar hamlId
+hi! link hamlClassChar hamlClass
+
 " Markdown
 call s:X("markdownH1",g:yellow,"","","","")
 hi! link markdownH2 markdownH1
