@@ -33,7 +33,7 @@ hamlErbInterpolation        cleared
 hamlObject                  cleared
 hamlDespacer                Special
 hamlSelfCloser              Special
-hamlRuby                    cleared
+hamlRuby                    cleared           methods, paths, ,[] ::
 hamlPlainChar               Special
 hamlInterpolatable          cleared
 hamlRubyFilter              cleared

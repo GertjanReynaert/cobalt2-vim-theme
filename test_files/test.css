@@ -1,3 +1,7 @@
+body {
+  background-color: whitesmoke;
+}
+
 #elementId {
   border: 5px 4px 3px 2px;
   background: url("https://assets.crowdsurge.com/datacapture/example/img/example_logo.png");
