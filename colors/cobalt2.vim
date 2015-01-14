@@ -260,7 +260,7 @@ let g:dark_orange = "FF9A00"   " #FF9A00
 let g:light_orange = "FF9D00"  " #FF9D00
 let g:yellow = "FFC600"        " #FFC600
 let g:green = "3AD900"         " #3AD900
-let g:light_green = "193549"
+let g:light_green = "88FF88"   " #88FF88
 let g:purple = "967EFB"        " #967EFB
 let g:darkest_blue = "0050A4"  " #0050A4
 let g:dark_blue = "0088FF"     " #0088FF
@@ -496,7 +496,7 @@ hi! link hamlTag htmlTag
 hi! link hamlIdChar hamlId
 hi! link hamlClassChar hamlClass
 call s:X("hamlAttributes",g:pink,"","","","")
-call s:X("hamlInterpolationDelimiter",g:pink,"","","","")
+call s:X("hamlInterpolationDelimiter",g:green,"","","","")
 
 " call s:X("hamlInterpolation",g:pink,"","","","")
 " call s:X("hamlObject",g:pink,"","","","")
