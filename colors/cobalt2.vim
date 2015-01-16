@@ -259,6 +259,7 @@ let g:white = "FFFFFF"         " #FFFFFF
 let g:dark_orange = "FF9A00"   " #FF9A00
 let g:light_orange = "FF9D00"  " #FF9D00
 let g:yellow = "FFC600"        " #FFC600
+let g:light_yellow = "F2ED7F"  " #F2ED7F
 let g:green = "3AD900"         " #3AD900
 let g:light_green = "88FF88"   " #88FF88
 let g:purple = "967EFB"        " #967EFB
@@ -272,6 +273,7 @@ let g:dark_pink = "FF628C"     " #FF628C
 let g:pink = "FF00FF"          " #FF00FF
 let g:light_pink = "EE80E1"    " #EE80E1
 let g:lightest_pink = "FFA5F3" " #FFA5F3
+let g:dirty_pink = "EB939A"    " #EB939A
 
 " regex
 let g:regex_or = "22FF00"         " #22FF00
@@ -535,6 +537,31 @@ call s:X("markdownUrl",g:dark_pink,"","","","")
 
 call s:X("markdownId",g:yellow,"","","","")
 hi! link markdownIdDeclaration markdownId
+
+" CSS
+call s:X("cssIncludeKeyword",g:dark_orange,"","","","")
+call s:X("cssMediaType",g:dirty_pink,"","","","")
+call s:X("cssMediaKeyword",g:dark_orange,"","","","")
+call s:X("cssInclude",g:white,"","","","")
+call s:X("cssMediaProp",g:light_green,"","","","")
+call s:X("cssValueLength",g:light_yellow,"","","","")
+call s:X("cssUnitDecorators",g:dark_orange,"","","","")
+call s:X("cssBraces",g:white,"","","","")
+call s:X("cssTagName",g:light_blue,"","","","")
+call s:X("cssClassName",g:green,"","","","")
+call s:X("cssPseudoClassFn",g:dark_pink,"","","","")
+call s:X("cssValueNumber",g:light_yellow,"","","","")
+call s:X("cssCommonAttr",g:light_yellow,"","","","")
+call s:X("cssPositioningAttr",g:light_yellow,"","","","")
+
+call s:X("cssBoxProp",g:light_green,"","","","")
+hi! link cssTextProp cssBoxProp
+hi! link cssDimensionProp cssBoxProp
+hi! link cssFontProp cssBoxProp
+hi! link cssPositioningProp cssBoxProp
+hi! link cssBackgroundProp cssBoxProp
+hi! link cssBorderProp cssBoxProp
+hi! link cssPageProp cssBoxProp
 
 " Erlang
 

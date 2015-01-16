@@ -21,3 +21,20 @@ body {
 .cssClass::before {
   content: "";
 }
+
+@media all and (max-width: 470px) {
+  ol.videos li:nth-child(1n) {
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  ol.videos li:nth-child(1n) p {
+    font-size: 15px;
+  }
+
+  ol.videos li:nth-child(1n) img {
+    display: none;
+  }
+}
