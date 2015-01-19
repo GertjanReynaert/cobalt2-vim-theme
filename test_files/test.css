@@ -20,6 +20,7 @@ body {
 
 .cssClass::before {
   content: "";
+  transition: height .1s linear;
 }
 
 @media all and (max-width: 470px) {

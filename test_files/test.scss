@@ -1,0 +1,59 @@
+body {
+  background-color: whitesmoke;
+}
+
+#elementId {
+  border: 5px 4px 3px 2px;
+  background: url("https://assets.crowdsurge.com/datacapture/example/img/example_logo.png");
+}
+
+.cssClass {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.cssClass:hover {
+  background-color: #FF0;
+}
+
+.cssClass::before {
+  content: "";
+}
+
+@media all and (max-width: 470px) {
+  ol.videos li:nth-child(1n) {
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  ol.videos li:nth-child(1n) p {
+    font-size: 15px;
+  }
+
+  ol.videos li:nth-child(1n) img {
+    display: none;
+  }
+}
+.collapse {
+  display: none;
+
+  &.in { display: block; }
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height .1s linear;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity .15s linear;
+
+  &.in { opacity: 1; }
+}
