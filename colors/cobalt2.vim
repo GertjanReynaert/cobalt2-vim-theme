@@ -323,7 +323,7 @@ call s:X("ColorColumn","",g:black,"","",s:termBlack)
 call s:X("Title","70b950","","bold","Green","")
 
 call s:X("Constant",g:dark_pink,"","","Red","")
-call s:X("Special","80FF82","","","Green","")
+call s:X("Special",g:light_green,"","","Green","")
 call s:X("Delimiter","668799","","","Grey","")
 
 call s:X("String",g:green,"","","Green","")
@@ -581,6 +581,12 @@ hi! link sassIdChar cssIdentifier
 hi! link sassId cssIdentifier
 hi! link sassClass cssClassName
 hi! link sassCssAttribute cssBoxAttr
+
+" JSON
+call s:X("jsonBraces",g:purple,"","","","")
+call s:X("jsonQuote",g:dark_blue,"","","","")
+call s:X("jsonNoise",g:dark_blue,"","","","")
+call s:X("jsonKeywordMatch",g:dark_blue,"","","","")
 
 " Erlang
 

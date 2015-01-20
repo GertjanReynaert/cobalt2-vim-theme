@@ -1,0 +1,20 @@
+{
+  "number": 10,
+  "text": "some string \n with escaped char",
+  "boolean": false,
+  "object": {
+    "title": "some title",
+    "text": "some description"
+  },
+  "array": [
+    1,
+    2,
+    3,
+    "test",
+    {
+      "title": "array",
+      "description": "this array sucks"
+    },
+    false
+  ]
+}
