@@ -36,7 +36,7 @@ Language support
 
 - [x] Markdown
 - [ ] JSON
-- [ ] Yaml
+- [x] Yaml
 - [ ] SQL
 - [ ] Shell
 

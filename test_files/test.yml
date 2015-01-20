@@ -1,0 +1,8 @@
+# basic comment
+test: &anchor
+  erb_style_ruby: <%= Settings.transloadit_key %>
+  string: "some string value"
+  integer: 1800
+
+merge:
+  <<: *anchor
