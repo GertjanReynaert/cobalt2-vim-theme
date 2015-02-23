@@ -345,7 +345,7 @@ call s:X("SpecialKey","444444","1c1c1c","",s:termBlack,"")
 
 call s:X("Search",g:yellow,"302028","underline","Magenta","")
 
-call s:X("Directory","dad085","","","Yellow","")
+call s:X("Directory",g:yellow,"","","Yellow","")
 call s:X("ErrorMsg","",g:dark_red,"","","DarkRed")
 hi! link Error ErrorMsg
 hi! link MoreMsg Special
@@ -564,6 +564,7 @@ hi! link cssBackgroundAttr cssBoxAttr
 hi! link cssPageAttr cssBoxAttr
 hi! link cssColorAttr cssBoxAttr
 hi! link cssTransitionAttr cssBoxAttr
+hi! link cssUIAttr cssBoxAttr
 
 call s:X("cssBoxProp",g:light_green,"","","","")
 hi! link cssTextProp cssBoxProp
@@ -575,6 +576,7 @@ hi! link cssBorderProp cssBoxProp
 hi! link cssPageProp cssBoxProp
 hi! link cssColorProp cssBoxProp
 hi! link cssTransitionProp cssBoxProp
+hi! link cssUIProp cssBoxProp
 
 " SCSS/SASS
 hi! link sassIdChar cssIdentifier
@@ -651,6 +653,9 @@ call s:X("NERDTreeDir",g:yellow,"","","","")
 hi! link NERDTreeDirSlash Ignore
 
 call s:X("NERDTreeExecFile",g:purple,"","","","")
+
+" Grep search
+call s:X("qfLineNr",g:dark_blue,"","","","")
 
 if !exists("g:cobalt_bg_256")
   let g:cobalt_bg_256="NONE"
