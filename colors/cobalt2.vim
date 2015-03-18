@@ -577,6 +577,7 @@ hi! link cssPageProp cssBoxProp
 hi! link cssColorProp cssBoxProp
 hi! link cssTransitionProp cssBoxProp
 hi! link cssUIProp cssBoxProp
+hi! link cssTransformProp cssBoxProp
 
 " SCSS/SASS
 hi! link sassIdChar cssIdentifier
