@@ -493,6 +493,18 @@ call s:X("htmlTitle",g:purple,"","","","")
 call s:X("htmlH1",g:light_orange,"","","","")
 call s:X("htmlItalic",g:pink,"","","","")
 
+" XML
+hi! link xmlTag htmlTag
+hi! link xmlTagName htmlTagName
+hi! link xmlEndTag htmlTagName
+
+hi! link xmlAttrib htmlArg
+hi! link xmlEqual htmlString
+hi! link xmlString htmlString
+
+hi! link xmlEntityPunct htmlSpecialChar
+hi! link xmlEntity htmlSpecialChar
+
 " Haml
 hi! link hamlTag htmlTag
 hi! link hamlIdChar hamlId

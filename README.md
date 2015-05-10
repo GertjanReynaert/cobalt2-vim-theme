@@ -33,6 +33,7 @@ Language support
   - [ ] Erb
   - [x] Haml
   - [ ] Handlebars
+  - [x] XML/JSX
 
 - [x] Markdown
 - [ ] JSON
