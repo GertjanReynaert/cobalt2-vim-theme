@@ -254,6 +254,8 @@ if !exists("g:cobalt_bg")
 end
 
 let g:black = "000000"         " #000000
+let g:dark_grey = "3A3A3A"     " #3A3A3A
+let g:grey = "605958"          " #605958
 let g:light_grey = "CCCCCC"    " #CCCCCC
 let g:white = "FFFFFF"         " #FFFFFF
 let g:dark_orange = "FF9A00"   " #FF9A00
@@ -296,8 +298,10 @@ call s:X("TabLineFill","9098a0","","","",s:termBlack)
 call s:X("TabLineSel",g:black,g:yellow,"italic,bold",s:termBlack,"White")
 
 " Auto-completion
-call s:X("Pmenu",g:white,"606060","","White",s:termBlack)
-call s:X("PmenuSel","101010","eeeeee","",s:termBlack,"White")
+call s:X("PMenu",g:light_grey,g:dark_grey,"","","")
+call s:X("PMenuSel",g:dark_grey,g:yellow,"","","")
+call s:X("PMenuSBar","",g:grey,"","","")
+call s:X("PMenuThumb","",g:light_grey,"","","")
 
 call s:X("Visual","",g:darkest_blue,"","",s:termBlack)
 
@@ -306,7 +310,7 @@ call s:X("CursorColumn","",g:yellow,"","",s:termBlack)
 call s:X("CursorLine","",g:yellow,"","",s:termBlack)
 call s:X("CursorLineNr",g:light_blue,"","none","White","")
 
-call s:X("LineNr","605958",g:cobalt_bg,"none",s:termBlack,"")
+call s:X("LineNr",g:grey,g:cobalt_bg,"none",s:termBlack,"")
 call s:X("Comment",g:dark_blue,"","italic","Grey","")
 call s:X("Todo",g:dark_blue,"","bold","Grey", "")
 
@@ -491,7 +495,7 @@ call s:X("htmlString",g:yellow,"","","","")
 
 call s:X("htmlTitle",g:purple,"","","","")
 call s:X("htmlH1",g:light_orange,"","","","")
-call s:X("htmlItalic",g:pink,"","","","")
+call s:X("htmlItalic",g:light_grey,"","","","")
 
 " XML
 hi! link xmlTag htmlTag
@@ -669,6 +673,9 @@ call s:X("NERDTreeExecFile",g:purple,"","","","")
 
 " Grep search
 call s:X("qfLineNr",g:dark_blue,"","","","")
+
+" CTRLP file search
+call s:X("CtrlPMatch",g:dark_orange,"","","","")
 
 if !exists("g:cobalt_bg_256")
   let g:cobalt_bg_256="NONE"
