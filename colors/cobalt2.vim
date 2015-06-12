@@ -250,7 +250,7 @@ fun! s:X(group, fg, bg, attr, lcfg, lcbg)
 endfun
 
 if !exists("g:cobalt_bg")
-  let g:cobalt_bg = "193549"
+  let g:cobalt_bg = "193549"   "#193549
 end
 
 let g:black = "000000"         " #000000
@@ -258,17 +258,21 @@ let g:dark_grey = "3A3A3A"     " #3A3A3A
 let g:grey = "605958"          " #605958
 let g:light_grey = "CCCCCC"    " #CCCCCC
 let g:white = "FFFFFF"         " #FFFFFF
+
 let g:dark_orange = "FF9A00"   " #FF9A00
 let g:light_orange = "FF9D00"  " #FF9D00
 let g:yellow = "FFC600"        " #FFC600
 let g:light_yellow = "F2ED7F"  " #F2ED7F
+
 let g:green = "3AD900"         " #3AD900
 let g:light_green = "88FF88"   " #88FF88
+
 let g:purple = "967EFB"        " #967EFB
 let g:darkest_blue = "0050A4"  " #0050A4
 let g:dark_blue = "0088FF"     " #0088FF
 let g:blue = "00AAFF"          " #00AAFF
 let g:light_blue = "80FCFF"    " #80FCFF
+
 let g:dark_red = "902020"      " #902020
 let g:red = "FF0000"           " #FF0000
 let g:dark_pink = "FF628C"     " #FF628C
@@ -347,7 +351,7 @@ call s:X("NonText","606060",g:cobalt_bg,"",s:termBlack,"")
 
 call s:X("SpecialKey","444444","1c1c1c","",s:termBlack,"")
 
-call s:X("Search",g:yellow,"302028","underline","Magenta","")
+call s:X("Search",g:black,g:light_yellow,"underline","Magenta","")
 
 call s:X("Directory",g:yellow,"","","Yellow","")
 call s:X("ErrorMsg","",g:dark_red,"","","DarkRed")
@@ -566,6 +570,7 @@ call s:X("cssUnitDecorators",g:dark_orange,"","","","")
 call s:X("cssBraces",g:white,"","","","")
 call s:X("cssTagName",g:light_blue,"","","","")
 call s:X("cssClassName",g:green,"","","","")
+call s:X("cssPseudoClassId",g:light_orange,"","","","")
 call s:X("cssPseudoClassFn",g:dark_pink,"","","","")
 
 call s:X("cssBoxAttr",g:light_yellow,"","","","")
