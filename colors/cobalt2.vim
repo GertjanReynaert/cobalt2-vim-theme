@@ -686,6 +686,18 @@ if !exists("g:cobalt_bg_256")
   let g:cobalt_bg_256="NONE"
 end
 
+" Neomake signs
+let g:neomake_error_sign = {
+            \ 'text': '✖',
+            \ 'texthl': 'ErrorMsg',
+            \ }
+
+call s:X("NeomakeWarningMsg",g:black,g:yellow,"","","")
+let g:neomake_warning_sign = {
+            \ 'text': '⚠',
+            \ 'texthl': 'NeomakeWarningMsg',
+            \ }
+
 " Manual overrides for 256-color terminals. Dark colors auto-map badly.
 if !s:low_color
   hi StatusLineNC ctermbg=232
