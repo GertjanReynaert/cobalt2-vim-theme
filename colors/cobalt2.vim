@@ -269,9 +269,12 @@ let g:light_orange = "FF9D00"                                          " #FF9D00
 let g:yellow = "FFC600"                                                " #FFC600
 let g:light_yellow = "F2ED7F"                                          " #F2ED7F
 
+let g:darkest_green = "2D7067"                                         " #2D7067
+let g:dirty_green = "70b950"                                           " #70b950
 let g:green = "3AD900"                                                 " #3AD900
 let g:light_green = "88FF88"                                           " #88FF88
-let g:dirty_green = "70b950"                                           " #70b950
+let g:lighter_green = "9EFF80"                                         " #9EFF80
+let g:lightest_green = "BBFFDD"                                        " #BBFFDD
 
 let g:dark_purple = "345FA8"                                           " #345FA8
 let g:purple = "967EFB"                                                " #967EFB
@@ -282,23 +285,28 @@ let g:darker_blue = "0050A4"                                           " #0050A4
 let g:dark_blue = "0088FF"                                             " #0088FF
 let g:blue = "00AAFF"                                                  " #00AAFF
 let g:light_blue = "80FCFF"                                            " #80FCFF
+let g:greyish_blue = "8fbfdc"                                          " #8fbfdc
 let g:dirty_blue = "668799"                                            " #668799
 
+let g:aubergine =  "4F0037"                                            " #4F0037
+let g:darker_red = "700009"                                            " #700009
 let g:dark_red = "902020"                                              " #902020
 let g:red = "FF0000"                                                   " #FF0000
 let g:dark_pink = "FF628C"                                             " #FF628C
 let g:pink = "FF00FF"                                                  " #FF00FF
 let g:light_pink = "EE80E1"                                            " #EE80E1
 let g:lightest_pink = "FFA5F3"                                         " #FFA5F3
+let g:pale_pink = "F0A0C0"                                             " #f0a0c0
 let g:dirty_pink = "EB939A"                                            " #EB939A
 
 " Regex colors
-let g:regex_or = "22FF00"                                              " #22FF00
-let g:regex_group = "22FF00"                                           " #22FF00
-let g:regex_quantifier = "55FF66"                                      " #55FF66
-let g:regex_boundary = "88FF88"                                        " #88FF88
-let g:regex_char_group = "9DFF99"                                      " #9DFF99
-let g:regex_string = "BBFFDD"                                          " #BBFFDD
+let g:regex_or = g:green
+let g:regex_group = g:green
+let g:regex_quantifier = g:light_green
+let g:regex_boundary = g:light_green
+let g:regex_char_group = g:lighter_green
+let g:regex_string = g:lightest_green
+let g:regex_escape = g:light_green
 
 " Vim essential color bindings
 set background=dark
@@ -326,7 +334,7 @@ call s:X("NonText",g:dark_grey,g:cobalt_bg,"","Black","")
 
 call s:X("SpecialKey",g:darker_grey,g:black,"","Black","")
 
-call s:X("MatchParen",g:white,"556779","bold","","")                   " #556779
+call s:X("MatchParen",g:white,g:dark_purple,"bold","","")
 
 call s:X("Directory",g:yellow,"","","Yellow","")
 call s:X("ErrorMsg","",g:dark_red,"","","DarkRed")
@@ -335,8 +343,8 @@ call s:X("Question",g:green,"","","Green","")
 call s:X("StorageClass",g:light_orange,"","","","")
 
 " vim tabpane headers
-call s:X("TabLine",g:black,"b0b8c0","italic","","Black")
-call s:X("TabLineFill","9098a0","","","","Black")                      " #9098a0
+call s:X("TabLine",g:black,g:lighter_grey,"italic","","Black")
+call s:X("TabLineFill",g:light_grey,"","","","Black")
 call s:X("TabLineSel",g:black,g:yellow,"italic,bold","Black","White")
 
 " Auto-completion
@@ -354,9 +362,9 @@ call s:X("CursorLineNr",g:light_blue,"","none","White","")
 call s:X("LineNr",g:dark_grey,g:cobalt_bg,"none","Black","")
 
 call s:X("StatusLine",g:black,g:lightest_grey,"italic","","White")
-call s:X("StatusLineNC",g:white,"403c41","italic","White","Black")     " #403c41
+call s:X("StatusLineNC",g:white,g:darker_grey,"italic","White","Black")
 call s:X("VertSplit",g:yellow,"","","","")
-call s:X("WildMenu","f0a0c0","302028","","Magenta","")         " #f0a0c0 #302028
+call s:X("WildMenu",g:pale_pink,g:darkest_grey,"","Magenta","")
 
 call s:X("Folded",g:light_grey,g:darker_grey,"italic","Black","")
 call s:X("FoldColumn",g:dark_grey,g:black,"","","Black")
@@ -371,20 +379,16 @@ call s:X("Search",g:black,g:light_yellow,"underline","Magenta","")
 
 call s:X("SpellBad",g:dark_red,"","underline","","DarkRed")
 call s:X("SpellCap","",g:darkest_blue,"underline","","Blue")
-call s:X("SpellRare","","540063","underline","","DarkMagenta")         " #540063
-call s:X("SpellLocal","","2D7067","underline","","Green")              " #2D7067
+call s:X("SpellRare","",g:aubergine,"underline","","DarkMagenta")
+call s:X("SpellLocal","",g:darkest_green,"underline","","Green")
 
 " Diff
 
 hi! link diffRemoved Constant
 hi! link diffAdded String
-
-" VimDiff
-
-call s:X("DiffAdd","D2EBBE","437019","","White","DarkGreen")   " #D2EBBE #437019
-call s:X("DiffDelete","40000A","700009","","DarkRed","DarkRed")" #40000A #700009
-call s:X("DiffChange","","2B5B77","","White","DarkBlue")               " #2B5B77
-call s:X("DiffText","8fbfdc",g:black,"reverse","Yellow","")            " #8fbfdc
+call s:X("DiffDelete",g:black,g:darker_red,"","DarkRed","DarkRed")
+call s:X("DiffChange","",g:darkest_green,"","White","DarkBlue")
+call s:X("DiffText",g:greyish_blue,g:black,"reverse","Yellow","")
 
 " PHP
 
@@ -418,7 +422,7 @@ call s:X("rubyAccess",g:purple,"","","","")
 call s:X("rubyBlockParameter",g:lightest_grey,"","","Blue","")
 call s:X("rubyBlockParameterList",g:white,"","","Blue","")
 
-call s:X("rubyInterpolation","9EFF80","","","Magenta","")              " #9EFF80
+call s:X("rubyInterpolation",g:lighter_green,"","","Magenta","")
 call s:X("rubyInterpolationDelimiter",g:white,"","","Magenta","")
 
 call s:X("rubyRegexp",g:light_green,"","","","")            " usual character
@@ -471,13 +475,13 @@ call s:X("coffeeStatement",g:dark_orange,"","","","")
 hi! link coffeeString String
 hi! link coffeeHeredoc String
 call s:X("coffeeInterpDelim",g:white,"","","","")
-call s:X("coffeeInterp","9EFF80","","","","")                          " #9EFF80
+call s:X("coffeeInterp",g:lighter_green,"","","","")
 
-call s:X("coffeeRegex","80FFC2","","","","")                           " #80FFC2
-call s:X("coffeeEscape","98F99D","","","","")                          " #98F99D
-call s:X("coffeeRegexCharSet","22FF00","","","","")                    " #22FF00
-call s:X("coffeeHeregex","80FFC2","","","","")                         " #80FFC2
-call s:X("coffeeHeregexCharSet","22FF00","","","","")                  " #22FF00
+call s:X("coffeeRegex",g:regex_escape,"","","","")
+call s:X("coffeeEscape",g:regex_escape,"","","","")
+call s:X("coffeeRegexCharSet",g:regex_group,"","","","")
+call s:X("coffeeHeregex",g:regex_escape,"","","","")
+call s:X("coffeeHeregexCharSet",g:regex_group,"","","","")
 
 call s:X("coffeeSpecialIdent",g:lightest_grey,"","","","")
 call s:X("coffeeBracket",g:white,"","","","")
@@ -540,7 +544,7 @@ hi! link markdownHeadingDelimiter markdownHeadingRule
 
 call s:X("markdownRule",g:light_blue,"","","","")
 
-call s:X("markdownCode","AAAAAA","","","","")                          " #AAAAAA
+call s:X("markdownCode",g:light_grey,"","","","")
 hi! link markdownCodeBlock markdownCode
 call s:X("markdownCodeDelimiter",g:dark_blue,"","","","")
 
@@ -641,20 +645,20 @@ hi! link vimOper Normal
 " Debugger.vim
 
 call s:X("DbgCurrent",g:light_purple,g:dark_purple,"","White","DarkBlue")
-call s:X("DbgBreakPt","","4F0037","","","DarkMagenta")                 " #4F0037
+call s:X("DbgBreakPt","",g:aubergine,"","","DarkMagenta")
 
 " vim-indent-guides
 
 if !exists("g:indent_guides_auto_colors")
   let g:indent_guides_auto_colors = 0
 endif
-call s:X("IndentGuidesOdd","","232323","","","")                       " #232323
-call s:X("IndentGuidesEven","","1b1b1b","","","")                      " #1b1b1b
+call s:X("IndentGuidesOdd","",g:darkest_grey,"","","")
+call s:X("IndentGuidesEven","",g:black,"","","")
 
 " Plugins, etc.
 
 hi! link TagListFileName Directory
-call s:X("PreciseJumpTarget","B9ED67","405026","","White","Green") " #B9ED67 #405026
+call s:X("PreciseJumpTarget",g:lighter_green,g:darker_grey,"","White","Green")
 
 " NERDTree
 
