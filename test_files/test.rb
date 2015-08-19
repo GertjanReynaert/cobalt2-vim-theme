@@ -7,12 +7,11 @@ float  = 0.00
 array  = Array.new
 array  = ['chris', 85]
 hash   = {"test" => "test"}
-regexp = /[abc\(]/
+regexp = /^\b1?[-.\s]?(\d{3})|([A-z])[-.\s]?\d{3}[-.\s]?\d{4}\?\b$/
 
 # TODO This is a comment
 module Earth
   class Person < Creature
-
     attr_accessor :name
 
     def initialize(attributes = {})
@@ -35,8 +34,8 @@ module Earth
       $i = 0
       $num = 5
 
-      while $i < $num  do
-        puts("Inside the loop i = #$i" )
+      while $i < $num
+        puts("Inside the loop i = #$i")
         $i += 1
       end
     end

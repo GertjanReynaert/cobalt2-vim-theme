@@ -4,9 +4,9 @@ Cobalt2 Vim
 Install
 -------
 
-With [Vundle](https://github.com/gmarik/vundle):
+With [Plug](https://github.com/junegunn/vim-plug):
 
-    Plugin 'gertjanreynaert/cobalt2-vim-theme'
+    Plug 'gertjanreynaert/cobalt2-vim-theme'
 
 For terminal vim: the only way to accomplish the background color is by
 installing the [cobalt2 iterm color
